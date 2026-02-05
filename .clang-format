@@ -1,0 +1,11 @@
+# ROS2 最简 clang-format 配置（无语法错误）
+BasedOnStyle: Google
+IndentWidth: 4          # 4空格缩进
+TabWidth: 4             # Tab 宽度4
+UseTab: Never           # 禁用Tab，只用空格
+ColumnLimit: 120        # 每行最大字符数
+PointerAlignment: Left  # 指针对齐到左侧（ROS2 常用）
+BreakBeforeBraces: Attach  # 大括号紧跟代码（Google风格）
+SpacesInParentheses: false # 括号内无空格
+SpacesInSquareBrackets: false # 方括号内无空格
+Standard: Auto          # 自动识别C++标准
