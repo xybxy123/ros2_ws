@@ -1,0 +1,29 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/ros2_yolos_cpp__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_yolos_cpp/msg/detail/key_point2_d__type_support.c.o"
+  "CMakeFiles/ros2_yolos_cpp__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_yolos_cpp/msg/detail/key_point2_d__type_support.c.o.d"
+  "CMakeFiles/ros2_yolos_cpp__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_yolos_cpp/msg/detail/key_point2_d_array__type_support.c.o"
+  "CMakeFiles/ros2_yolos_cpp__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_yolos_cpp/msg/detail/key_point2_d_array__type_support.c.o.d"
+  "CMakeFiles/ros2_yolos_cpp__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_yolos_cpp/msg/detail/obb_detection2_d__type_support.c.o"
+  "CMakeFiles/ros2_yolos_cpp__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_yolos_cpp/msg/detail/obb_detection2_d__type_support.c.o.d"
+  "CMakeFiles/ros2_yolos_cpp__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_yolos_cpp/msg/detail/obb_detection2_d_array__type_support.c.o"
+  "CMakeFiles/ros2_yolos_cpp__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_yolos_cpp/msg/detail/obb_detection2_d_array__type_support.c.o.d"
+  "CMakeFiles/ros2_yolos_cpp__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_yolos_cpp/msg/detail/oriented_bounding_box2_d__type_support.c.o"
+  "CMakeFiles/ros2_yolos_cpp__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_yolos_cpp/msg/detail/oriented_bounding_box2_d__type_support.c.o.d"
+  "libros2_yolos_cpp__rosidl_typesupport_introspection_c.pdb"
+  "libros2_yolos_cpp__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/ros2_yolos_cpp/msg/detail/key_point2_d__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/ros2_yolos_cpp/msg/detail/key_point2_d__type_support.c"
+  "rosidl_typesupport_introspection_c/ros2_yolos_cpp/msg/detail/key_point2_d_array__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/ros2_yolos_cpp/msg/detail/key_point2_d_array__type_support.c"
+  "rosidl_typesupport_introspection_c/ros2_yolos_cpp/msg/detail/obb_detection2_d__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/ros2_yolos_cpp/msg/detail/obb_detection2_d__type_support.c"
+  "rosidl_typesupport_introspection_c/ros2_yolos_cpp/msg/detail/obb_detection2_d_array__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/ros2_yolos_cpp/msg/detail/obb_detection2_d_array__type_support.c"
+  "rosidl_typesupport_introspection_c/ros2_yolos_cpp/msg/detail/oriented_bounding_box2_d__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/ros2_yolos_cpp/msg/detail/oriented_bounding_box2_d__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/ros2_yolos_cpp__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

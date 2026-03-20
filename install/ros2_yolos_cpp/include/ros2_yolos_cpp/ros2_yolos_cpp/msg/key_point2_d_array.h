@@ -1,0 +1,12 @@
+// generated from rosidl_generator_c/resource/idl.h.em
+// with input from ros2_yolos_cpp:msg/KeyPoint2DArray.idl
+// generated code does not contain a copyright notice
+
+#ifndef ROS2_YOLOS_CPP__MSG__KEY_POINT2_D_ARRAY_H_
+#define ROS2_YOLOS_CPP__MSG__KEY_POINT2_D_ARRAY_H_
+
+#include "ros2_yolos_cpp/msg/detail/key_point2_d_array__struct.h"
+#include "ros2_yolos_cpp/msg/detail/key_point2_d_array__functions.h"
+#include "ros2_yolos_cpp/msg/detail/key_point2_d_array__type_support.h"
+
+#endif  // ROS2_YOLOS_CPP__MSG__KEY_POINT2_D_ARRAY_H_

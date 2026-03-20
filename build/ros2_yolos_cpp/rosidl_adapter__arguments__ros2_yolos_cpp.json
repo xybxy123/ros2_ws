@@ -1,0 +1,10 @@
+{
+  "package_name": "ros2_yolos_cpp",
+  "non_idl_tuples": [
+    "/home/xybxy123/w_work/ros2_ws/src/ros2_yolos_cpp:msg/OrientedBoundingBox2D.msg",
+    "/home/xybxy123/w_work/ros2_ws/src/ros2_yolos_cpp:msg/OBBDetection2D.msg",
+    "/home/xybxy123/w_work/ros2_ws/src/ros2_yolos_cpp:msg/OBBDetection2DArray.msg",
+    "/home/xybxy123/w_work/ros2_ws/src/ros2_yolos_cpp:msg/KeyPoint2D.msg",
+    "/home/xybxy123/w_work/ros2_ws/src/ros2_yolos_cpp:msg/KeyPoint2DArray.msg"
+  ]
+}

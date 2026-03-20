@@ -1,0 +1,58 @@
+[0.016s] Invoking command in '/home/xybxy123/w_work/ros2_ws/build/slam_toolbox_ydlidar': CMAKE_PREFIX_PATH=/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver:/home/xybxy123/w_work/ros2_ws/install/slam_toolbox:/home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar:/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp:/home/xybxy123/w_work/ros2_ws/install/input_img:/opt/ros/jazzy/opt/gz_launch_vendor:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/xybxy123/w_work/ros2_ws/install/slam_toolbox/lib/python3.12/site-packages:/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/xybxy123/w_work/genesis_ws/Genesis /usr/bin/cmake --build /home/xybxy123/w_work/ros2_ws/build/slam_toolbox_ydlidar -- -j24 -l24
+[0.057s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.234s] -- Found slam_toolbox: 2.8.3 (/opt/ros/jazzy/share/slam_toolbox/cmake)
+[0.258s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.264s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.272s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.283s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.424s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.425s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.485s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.635s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[0.636s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.716s] -- Setting OGRE_DIR to: '/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[0.717s] -- Found OGRE
+[0.717s] --   static     : OFF
+[0.717s] --   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[0.717s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.717s] --   media      : /opt/ros/jazzy/opt/rviz_ogre_vendor/share/OGRE/Media
+[0.717s] -- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[0.717s] -- OGRE_LIBRARY_DIRS: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib
+[0.717s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.717s] -- OGRE_PLUGIN_DIR: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/OGRE
+[0.717s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.717s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.717s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.717s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.796s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[0.876s] -- Found ydlidar_ros2_driver: 1.0.2 (/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake)
+[0.877s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.944s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.944s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.944s] -- Added test 'lint_cmake' to check CMake code style
+[0.944s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.945s] -- Added test 'xmllint' to check XML markup files
+[0.945s] -- Configuring done (0.9s)
+[0.950s] -- Generating done (0.0s)
+[0.953s] -- Build files have been written to: /home/xybxy123/w_work/ros2_ws/build/slam_toolbox_ydlidar
+[0.975s] Invoked command in '/home/xybxy123/w_work/ros2_ws/build/slam_toolbox_ydlidar' returned '0': CMAKE_PREFIX_PATH=/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver:/home/xybxy123/w_work/ros2_ws/install/slam_toolbox:/home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar:/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp:/home/xybxy123/w_work/ros2_ws/install/input_img:/opt/ros/jazzy/opt/gz_launch_vendor:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/xybxy123/w_work/ros2_ws/install/slam_toolbox/lib/python3.12/site-packages:/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/xybxy123/w_work/genesis_ws/Genesis /usr/bin/cmake --build /home/xybxy123/w_work/ros2_ws/build/slam_toolbox_ydlidar -- -j24 -l24
+[0.981s] Invoking command in '/home/xybxy123/w_work/ros2_ws/build/slam_toolbox_ydlidar': CMAKE_PREFIX_PATH=/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver:/home/xybxy123/w_work/ros2_ws/install/slam_toolbox:/home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar:/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp:/home/xybxy123/w_work/ros2_ws/install/input_img:/opt/ros/jazzy/opt/gz_launch_vendor:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/xybxy123/w_work/ros2_ws/install/slam_toolbox/lib/python3.12/site-packages:/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/xybxy123/w_work/genesis_ws/Genesis /usr/bin/cmake --install /home/xybxy123/w_work/ros2_ws/build/slam_toolbox_ydlidar
+[0.988s] -- Install configuration: ""
+[0.988s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar/share/slam_toolbox_ydlidar/launch
+[0.988s] -- Installing: /home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar/share/slam_toolbox_ydlidar/launch/online_async_ydlidar.launch.py
+[0.988s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar/share/ament_index/resource_index/package_run_dependencies/slam_toolbox_ydlidar
+[0.988s] -- Installing: /home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar/share/ament_index/resource_index/parent_prefix_path/slam_toolbox_ydlidar
+[0.989s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar/share/slam_toolbox_ydlidar/environment/ament_prefix_path.sh
+[0.989s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar/share/slam_toolbox_ydlidar/environment/ament_prefix_path.dsv
+[0.989s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar/share/slam_toolbox_ydlidar/environment/path.sh
+[0.989s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar/share/slam_toolbox_ydlidar/environment/path.dsv
+[0.989s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar/share/slam_toolbox_ydlidar/local_setup.bash
+[0.989s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar/share/slam_toolbox_ydlidar/local_setup.sh
+[0.989s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar/share/slam_toolbox_ydlidar/local_setup.zsh
+[0.990s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar/share/slam_toolbox_ydlidar/local_setup.dsv
+[0.991s] -- Installing: /home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar/share/slam_toolbox_ydlidar/package.dsv
+[0.991s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar/share/ament_index/resource_index/packages/slam_toolbox_ydlidar
+[0.991s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar/share/slam_toolbox_ydlidar/cmake/slam_toolbox_ydlidarConfig.cmake
+[0.992s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar/share/slam_toolbox_ydlidar/cmake/slam_toolbox_ydlidarConfig-version.cmake
+[0.992s] -- Installing: /home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar/share/slam_toolbox_ydlidar/package.xml
+[0.993s] Invoked command in '/home/xybxy123/w_work/ros2_ws/build/slam_toolbox_ydlidar' returned '0': CMAKE_PREFIX_PATH=/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver:/home/xybxy123/w_work/ros2_ws/install/slam_toolbox:/home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar:/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp:/home/xybxy123/w_work/ros2_ws/install/input_img:/opt/ros/jazzy/opt/gz_launch_vendor:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/xybxy123/w_work/ros2_ws/install/slam_toolbox/lib/python3.12/site-packages:/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/xybxy123/w_work/genesis_ws/Genesis /usr/bin/cmake --install /home/xybxy123/w_work/ros2_ws/build/slam_toolbox_ydlidar

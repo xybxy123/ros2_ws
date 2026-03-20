@@ -1,0 +1,11 @@
+/home/xybxy123/w_work/ros2_ws/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/Pause.idl
+/home/xybxy123/w_work/ros2_ws/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/Reset.idl
+/home/xybxy123/w_work/ros2_ws/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/ClearQueue.idl
+/home/xybxy123/w_work/ros2_ws/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/ToggleInteractive.idl
+/home/xybxy123/w_work/ros2_ws/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/Clear.idl
+/home/xybxy123/w_work/ros2_ws/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/SaveMap.idl
+/home/xybxy123/w_work/ros2_ws/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/LoopClosure.idl
+/home/xybxy123/w_work/ros2_ws/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/MergeMaps.idl
+/home/xybxy123/w_work/ros2_ws/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/AddSubmap.idl
+/home/xybxy123/w_work/ros2_ws/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/DeserializePoseGraph.idl
+/home/xybxy123/w_work/ros2_ws/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/SerializePoseGraph.idl

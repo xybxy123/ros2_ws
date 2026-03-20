@@ -1,0 +1,5 @@
+ros2_yolos_cpp::YolosDetectorNode;lib/libros2_yolos_cpp_components.so
+ros2_yolos_cpp::YolosSegmentorNode;lib/libros2_yolos_cpp_components.so
+ros2_yolos_cpp::YolosPoseNode;lib/libros2_yolos_cpp_components.so
+ros2_yolos_cpp::YolosOBBNode;lib/libros2_yolos_cpp_components.so
+ros2_yolos_cpp::YolosClassifierNode;lib/libros2_yolos_cpp_components.so

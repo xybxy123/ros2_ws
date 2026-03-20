@@ -1,0 +1,42 @@
+{
+    // 核心：保存时自动格式化
+    "editor.formatOnSave": true,
+    // 保存时自动修复代码风格（如空格、缩进）
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true,
+        "source.organizeImports": true
+    },
+    // 指定默认格式化工具为 clang-format
+    "editor.defaultFormatter": "xaver.clang-format",
+    // clang-format 相关配置
+    "clang-format.executable": "/usr/bin/clang-format",
+    "clang-format.style": "file", // 优先读取本地 .clang-format 文件
+    "clang-format.fallbackStyle": "Google", // 备用风格
+    // C/C++ 插件适配 clang-format
+    "C_Cpp.formatting": "clangFormat",
+    "C_Cpp.clang_format_style": "file",
+    "C_Cpp.clang_format_fallbackStyle": "Google",
+    // 适配 ROS2 代码文件类型
+    "files.associations": {
+        "*.h": "cpp",
+        "*.hpp": "cpp",
+        "*.cpp": "cpp",
+        "*.cc": "cpp",
+        "*.cxx": "cpp",
+        "*.msg": "ros.msg",
+        "*.srv": "ros.srv",
+        "*.action": "ros.action",
+        "CMakeLists.txt": "cmake"
+    },
+    // 关闭可能冲突的自动缩进
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    // 忽略格式化的文件（可选，避免格式化配置文件）
+    "editor.formatOnSaveIgnore": [
+        "**/.git/**",
+        "**/build/**",
+        "**/install/**",
+        "**/log/**"
+    ]
+}

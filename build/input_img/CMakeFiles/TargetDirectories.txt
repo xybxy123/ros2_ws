@@ -1,0 +1,10 @@
+/home/xybxy123/w_work/ros2_ws/build/input_img/CMakeFiles/uninstall.dir
+/home/xybxy123/w_work/ros2_ws/build/input_img/CMakeFiles/input_img_uninstall.dir
+/home/xybxy123/w_work/ros2_ws/build/input_img/CMakeFiles/yolo_main_node.dir
+/home/xybxy123/w_work/ros2_ws/build/input_img/CMakeFiles/test.dir
+/home/xybxy123/w_work/ros2_ws/build/input_img/CMakeFiles/edit_cache.dir
+/home/xybxy123/w_work/ros2_ws/build/input_img/CMakeFiles/rebuild_cache.dir
+/home/xybxy123/w_work/ros2_ws/build/input_img/CMakeFiles/list_install_components.dir
+/home/xybxy123/w_work/ros2_ws/build/input_img/CMakeFiles/install.dir
+/home/xybxy123/w_work/ros2_ws/build/input_img/CMakeFiles/install/local.dir
+/home/xybxy123/w_work/ros2_ws/build/input_img/CMakeFiles/install/strip.dir

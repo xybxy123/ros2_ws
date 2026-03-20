@@ -1,0 +1,16 @@
+{
+  "package_name": "ros2_yolos_cpp",
+  "output_dir": "/home/xybxy123/w_work/ros2_ws/build/ros2_yolos_cpp/rosidl_generator_type_description/ros2_yolos_cpp",
+  "idl_tuples": [
+    "/home/xybxy123/w_work/ros2_ws/build/ros2_yolos_cpp/rosidl_adapter/ros2_yolos_cpp:msg/OrientedBoundingBox2D.idl",
+    "/home/xybxy123/w_work/ros2_ws/build/ros2_yolos_cpp/rosidl_adapter/ros2_yolos_cpp:msg/OBBDetection2D.idl",
+    "/home/xybxy123/w_work/ros2_ws/build/ros2_yolos_cpp/rosidl_adapter/ros2_yolos_cpp:msg/OBBDetection2DArray.idl",
+    "/home/xybxy123/w_work/ros2_ws/build/ros2_yolos_cpp/rosidl_adapter/ros2_yolos_cpp:msg/KeyPoint2D.idl",
+    "/home/xybxy123/w_work/ros2_ws/build/ros2_yolos_cpp/rosidl_adapter/ros2_yolos_cpp:msg/KeyPoint2DArray.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs"
+  ]
+}

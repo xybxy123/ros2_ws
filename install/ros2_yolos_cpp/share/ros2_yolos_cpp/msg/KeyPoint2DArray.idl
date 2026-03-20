@@ -1,0 +1,40 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros2_yolos_cpp/msg/KeyPoint2DArray.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "ros2_yolos_cpp/msg/KeyPoint2D.idl"
+#include "std_msgs/msg/Header.idl"
+
+module ros2_yolos_cpp {
+  module msg {
+    @verbatim (language="comment", text=
+      "KeyPoint2DArray.msg" "\n"
+      "Array of 2D keypoints for a single person/object")
+    struct KeyPoint2DArray {
+      @verbatim (language="comment", text=
+        "Header with timestamp")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Array of keypoints (17 for COCO format)")
+      sequence<ros2_yolos_cpp::msg::KeyPoint2D> keypoints;
+
+      @verbatim (language="comment", text=
+        "Bounding box of the detected person (optional)")
+      geometry_msgs::msg::Point bounding_box_center;
+
+      double bounding_box_size_x;
+
+      double bounding_box_size_y;
+
+      @verbatim (language="comment", text=
+        "Detection confidence")
+      double confidence;
+
+      @verbatim (language="comment", text=
+        "Class ID (typically 0 for person in pose estimation)")
+      int32 class_id;
+    };
+  };
+};

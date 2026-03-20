@@ -1,0 +1,61 @@
+[0.006s] Invoking command in '/home/xybxy123/w_work/ros2_ws/build/input_img': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/xybxy123/w_work/ros2_ws/src/input_img -DCMAKE_INSTALL_PREFIX=/home/xybxy123/w_work/ros2_ws/install/input_img
+[0.046s] -- The C compiler identification is GNU 11.5.0
+[0.079s] -- The CXX compiler identification is GNU 11.5.0
+[0.091s] -- Detecting C compiler ABI info
+[0.155s] -- Detecting C compiler ABI info - done
+[0.161s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.161s] -- Detecting C compile features
+[0.161s] -- Detecting C compile features - done
+[0.168s] -- Detecting CXX compiler ABI info
+[0.233s] -- Detecting CXX compiler ABI info - done
+[0.238s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.238s] -- Detecting CXX compile features
+[0.238s] -- Detecting CXX compile features - done
+[0.240s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.348s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.418s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.448s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.458s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.469s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.481s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.532s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.534s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.595s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.610s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.626s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.675s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.715s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[0.723s] -- Found OpenCV: /usr/local (found suitable version "4.8.0", minimum required is "4") found components: core highgui videoio imgproc dnn 
+[0.778s] -- Configuring done (0.8s)
+[0.786s] -- Generating done (0.0s)
+[0.788s] -- Build files have been written to: /home/xybxy123/w_work/ros2_ws/build/input_img
+[0.796s] Invoked command in '/home/xybxy123/w_work/ros2_ws/build/input_img' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/xybxy123/w_work/ros2_ws/src/input_img -DCMAKE_INSTALL_PREFIX=/home/xybxy123/w_work/ros2_ws/install/input_img
+[0.797s] Invoking command in '/home/xybxy123/w_work/ros2_ws/build/input_img': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/xybxy123/w_work/ros2_ws/build/input_img -- -j24 -l24
+[0.835s] [ 75%] [32mBuilding CXX object CMakeFiles/yolo_main_node.dir/src/predict.cpp.o[0m
+[0.835s] [ 75%] [32mBuilding CXX object CMakeFiles/yolo_main_node.dir/src/yolo_node.cpp.o[0m
+[0.836s] [ 75%] [32mBuilding CXX object CMakeFiles/yolo_main_node.dir/src/track.cpp.o[0m
+[4.972s] [100%] [32m[1mLinking CXX executable yolo_main_node[0m
+[5.098s] /usr/bin/ld: warning: libopencv_core.so.406, needed by /opt/ros/jazzy/lib/libcv_bridge.so, may conflict with libopencv_core.so.408
+[5.447s] [100%] Built target yolo_main_node
+[5.457s] Invoked command in '/home/xybxy123/w_work/ros2_ws/build/input_img' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/xybxy123/w_work/ros2_ws/build/input_img -- -j24 -l24
+[5.457s] Invoking command in '/home/xybxy123/w_work/ros2_ws/build/input_img': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/xybxy123/w_work/ros2_ws/build/input_img
+[5.465s] -- Install configuration: ""
+[5.465s] -- Installing: /home/xybxy123/w_work/ros2_ws/install/input_img/lib/input_img/yolo_main_node
+[5.466s] -- Set non-toolchain portion of runtime path of "/home/xybxy123/w_work/ros2_ws/install/input_img/lib/input_img/yolo_main_node" to ""
+[5.466s] -- Installing: /home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/launch
+[5.466s] -- Installing: /home/xybxy123/w_work/ros2_ws/install/input_img/share/ament_index/resource_index/package_run_dependencies/input_img
+[5.466s] -- Installing: /home/xybxy123/w_work/ros2_ws/install/input_img/share/ament_index/resource_index/parent_prefix_path/input_img
+[5.466s] -- Installing: /home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/environment/ament_prefix_path.sh
+[5.466s] -- Installing: /home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/environment/ament_prefix_path.dsv
+[5.466s] -- Installing: /home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/environment/path.sh
+[5.466s] -- Installing: /home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/environment/path.dsv
+[5.466s] -- Installing: /home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/local_setup.bash
+[5.466s] -- Installing: /home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/local_setup.sh
+[5.466s] -- Installing: /home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/local_setup.zsh
+[5.467s] -- Installing: /home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/local_setup.dsv
+[5.467s] -- Installing: /home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/package.dsv
+[5.467s] -- Installing: /home/xybxy123/w_work/ros2_ws/install/input_img/share/ament_index/resource_index/packages/input_img
+[5.467s] -- Installing: /home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/cmake/input_imgConfig.cmake
+[5.467s] -- Installing: /home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/cmake/input_imgConfig-version.cmake
+[5.467s] -- Installing: /home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/package.xml
+[5.468s] Invoked command in '/home/xybxy123/w_work/ros2_ws/build/input_img' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/xybxy123/w_work/ros2_ws/build/input_img

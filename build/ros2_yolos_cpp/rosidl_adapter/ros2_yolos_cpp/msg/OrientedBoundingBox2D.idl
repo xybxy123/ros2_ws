@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros2_yolos_cpp/msg/OrientedBoundingBox2D.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module ros2_yolos_cpp {
+  module msg {
+    @verbatim (language="comment", text=
+      "OrientedBoundingBox2D.msg" "\n"
+      "Oriented (rotated) bounding box in 2D image space")
+    struct OrientedBoundingBox2D {
+      @verbatim (language="comment", text=
+        "Center point of the bounding box")
+      geometry_msgs::msg::Point center;
+
+      @verbatim (language="comment", text=
+        "Width and height of the box (before rotation)")
+      double size_x;
+
+      double size_y;
+
+      @verbatim (language="comment", text=
+        "Rotation angle in radians (counter-clockwise from x-axis)")
+      double theta;
+    };
+  };
+};

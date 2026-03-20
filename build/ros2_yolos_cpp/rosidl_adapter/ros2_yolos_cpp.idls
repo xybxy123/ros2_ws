@@ -1,0 +1,5 @@
+/home/xybxy123/w_work/ros2_ws/build/ros2_yolos_cpp/rosidl_adapter/ros2_yolos_cpp:msg/OrientedBoundingBox2D.idl
+/home/xybxy123/w_work/ros2_ws/build/ros2_yolos_cpp/rosidl_adapter/ros2_yolos_cpp:msg/OBBDetection2D.idl
+/home/xybxy123/w_work/ros2_ws/build/ros2_yolos_cpp/rosidl_adapter/ros2_yolos_cpp:msg/OBBDetection2DArray.idl
+/home/xybxy123/w_work/ros2_ws/build/ros2_yolos_cpp/rosidl_adapter/ros2_yolos_cpp:msg/KeyPoint2D.idl
+/home/xybxy123/w_work/ros2_ws/build/ros2_yolos_cpp/rosidl_adapter/ros2_yolos_cpp:msg/KeyPoint2DArray.idl

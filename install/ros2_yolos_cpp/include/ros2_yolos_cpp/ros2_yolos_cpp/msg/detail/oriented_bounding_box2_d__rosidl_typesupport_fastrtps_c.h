@@ -1,0 +1,65 @@
+// generated from rosidl_typesupport_fastrtps_c/resource/idl__rosidl_typesupport_fastrtps_c.h.em
+// with input from ros2_yolos_cpp:msg/OrientedBoundingBox2D.idl
+// generated code does not contain a copyright notice
+#ifndef ROS2_YOLOS_CPP__MSG__DETAIL__ORIENTED_BOUNDING_BOX2_D__ROSIDL_TYPESUPPORT_FASTRTPS_C_H_
+#define ROS2_YOLOS_CPP__MSG__DETAIL__ORIENTED_BOUNDING_BOX2_D__ROSIDL_TYPESUPPORT_FASTRTPS_C_H_
+
+
+#include <stddef.h>
+#include "rosidl_runtime_c/message_type_support_struct.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "ros2_yolos_cpp/msg/rosidl_typesupport_fastrtps_c__visibility_control.h"
+#include "ros2_yolos_cpp/msg/detail/oriented_bounding_box2_d__struct.h"
+#include "fastcdr/Cdr.h"
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_ros2_yolos_cpp
+bool cdr_serialize_ros2_yolos_cpp__msg__OrientedBoundingBox2D(
+  const ros2_yolos_cpp__msg__OrientedBoundingBox2D * ros_message,
+  eprosima::fastcdr::Cdr & cdr);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_ros2_yolos_cpp
+bool cdr_deserialize_ros2_yolos_cpp__msg__OrientedBoundingBox2D(
+  eprosima::fastcdr::Cdr &,
+  ros2_yolos_cpp__msg__OrientedBoundingBox2D * ros_message);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_ros2_yolos_cpp
+size_t get_serialized_size_ros2_yolos_cpp__msg__OrientedBoundingBox2D(
+  const void * untyped_ros_message,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_ros2_yolos_cpp
+size_t max_serialized_size_ros2_yolos_cpp__msg__OrientedBoundingBox2D(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_ros2_yolos_cpp
+bool cdr_serialize_key_ros2_yolos_cpp__msg__OrientedBoundingBox2D(
+  const ros2_yolos_cpp__msg__OrientedBoundingBox2D * ros_message,
+  eprosima::fastcdr::Cdr & cdr);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_ros2_yolos_cpp
+size_t get_serialized_size_key_ros2_yolos_cpp__msg__OrientedBoundingBox2D(
+  const void * untyped_ros_message,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_ros2_yolos_cpp
+size_t max_serialized_size_key_ros2_yolos_cpp__msg__OrientedBoundingBox2D(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_ros2_yolos_cpp
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, ros2_yolos_cpp, msg, OrientedBoundingBox2D)();
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // ROS2_YOLOS_CPP__MSG__DETAIL__ORIENTED_BOUNDING_BOX2_D__ROSIDL_TYPESUPPORT_FASTRTPS_C_H_

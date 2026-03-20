@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros2_yolos_cpp/msg/KeyPoint2D.msg
+// generated code does not contain a copyright notice
+
+
+module ros2_yolos_cpp {
+  module msg {
+    @verbatim (language="comment", text=
+      "KeyPoint2D.msg" "\n"
+      "A single 2D keypoint with confidence")
+    struct KeyPoint2D {
+      @verbatim (language="comment", text=
+        "X coordinate in pixels")
+      double x;
+
+      @verbatim (language="comment", text=
+        "Y coordinate in pixels")
+      double y;
+
+      @verbatim (language="comment", text=
+        "Confidence score (0.0 - 1.0)")
+      double confidence;
+
+      @verbatim (language="comment", text=
+        "Keypoint index (according to COCO format)")
+      int32 id;
+    };
+  };
+};

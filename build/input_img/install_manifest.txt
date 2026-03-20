@@ -1,0 +1,16 @@
+/home/xybxy123/w_work/ros2_ws/install/input_img/lib/input_img/yolo_main_node
+/home/xybxy123/w_work/ros2_ws/install/input_img/share/ament_index/resource_index/package_run_dependencies/input_img
+/home/xybxy123/w_work/ros2_ws/install/input_img/share/ament_index/resource_index/parent_prefix_path/input_img
+/home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/environment/ament_prefix_path.sh
+/home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/environment/ament_prefix_path.dsv
+/home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/environment/path.sh
+/home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/environment/path.dsv
+/home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/local_setup.bash
+/home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/local_setup.sh
+/home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/local_setup.zsh
+/home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/local_setup.dsv
+/home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/package.dsv
+/home/xybxy123/w_work/ros2_ws/install/input_img/share/ament_index/resource_index/packages/input_img
+/home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/cmake/input_imgConfig.cmake
+/home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/cmake/input_imgConfig-version.cmake
+/home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/package.xml

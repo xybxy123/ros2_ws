@@ -1,0 +1,10 @@
+msg/KeyPoint2D.idl
+msg/KeyPoint2D.msg
+msg/KeyPoint2DArray.idl
+msg/KeyPoint2DArray.msg
+msg/OBBDetection2D.idl
+msg/OBBDetection2D.msg
+msg/OBBDetection2DArray.idl
+msg/OBBDetection2DArray.msg
+msg/OrientedBoundingBox2D.idl
+msg/OrientedBoundingBox2D.msg

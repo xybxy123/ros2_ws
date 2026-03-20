@@ -1,0 +1,361 @@
+[0.052s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.052s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=24, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7536b9177a40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7536b9177830>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7536b9177830>>)
+[0.072s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.072s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.072s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.072s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.072s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.072s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.072s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/xybxy123/w_work/ros2_ws'
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.072s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.086s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/input_img) by extensions ['ignore', 'ignore_ament_install']
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/input_img) by extension 'ignore'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/input_img) by extension 'ignore_ament_install'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/input_img) by extensions ['colcon_pkg']
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/input_img) by extension 'colcon_pkg'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/input_img) by extensions ['colcon_meta']
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/input_img) by extension 'colcon_meta'
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/input_img) by extensions ['ros']
+[0.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/input_img) by extension 'ros'
+[0.089s] DEBUG:colcon.colcon_core.package_identification:Package 'src/input_img' with type 'ros.ament_cmake' and name 'input_img'
+[0.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_yolos_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_yolos_cpp) by extension 'ignore'
+[0.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_yolos_cpp) by extension 'ignore_ament_install'
+[0.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_yolos_cpp) by extensions ['colcon_pkg']
+[0.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_yolos_cpp) by extension 'colcon_pkg'
+[0.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_yolos_cpp) by extensions ['colcon_meta']
+[0.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_yolos_cpp) by extension 'colcon_meta'
+[0.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_yolos_cpp) by extensions ['ros']
+[0.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_yolos_cpp) by extension 'ros'
+[0.089s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_yolos_cpp' with type 'ros.ament_cmake' and name 'ros2_yolos_cpp'
+[0.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox_ydlidar) by extensions ['ignore', 'ignore_ament_install']
+[0.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox_ydlidar) by extension 'ignore'
+[0.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox_ydlidar) by extension 'ignore_ament_install'
+[0.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox_ydlidar) by extensions ['colcon_pkg']
+[0.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox_ydlidar) by extension 'colcon_pkg'
+[0.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox_ydlidar) by extensions ['colcon_meta']
+[0.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox_ydlidar) by extension 'colcon_meta'
+[0.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox_ydlidar) by extensions ['ros']
+[0.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox_ydlidar) by extension 'ros'
+[0.090s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slam_toolbox_ydlidar' with type 'ros.ament_cmake' and name 'slam_toolbox_ydlidar'
+[0.090s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.090s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ignore'
+[0.090s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ignore_ament_install'
+[0.090s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['colcon_pkg']
+[0.090s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'colcon_pkg'
+[0.090s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['colcon_meta']
+[0.090s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'colcon_meta'
+[0.090s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extensions ['ros']
+[0.090s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver) by extension 'ros'
+[0.090s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ydlidar_ros2_driver' with type 'ros.ament_cmake' and name 'ydlidar_ros2_driver'
+[0.090s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.090s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.090s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.090s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.090s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.100s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.100s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.101s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.101s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.101s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/xybxy123/w_work/ros2_ws/install/sparse_bundle_adjustment' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.101s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.101s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.101s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/xybxy123/w_work/ros2_ws/install/sparse_bundle_adjustment' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.101s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/xybxy123/w_work/ros2_ws/install
+[0.102s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 375 installed packages in /opt/ros/jazzy
+[0.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.124s] Level 5:colcon.colcon_core.verb:set package 'input_img' build argument 'cmake_args' from command line to 'None'
+[0.124s] Level 5:colcon.colcon_core.verb:set package 'input_img' build argument 'cmake_target' from command line to 'None'
+[0.124s] Level 5:colcon.colcon_core.verb:set package 'input_img' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.124s] Level 5:colcon.colcon_core.verb:set package 'input_img' build argument 'cmake_clean_cache' from command line to 'False'
+[0.124s] Level 5:colcon.colcon_core.verb:set package 'input_img' build argument 'cmake_clean_first' from command line to 'False'
+[0.124s] Level 5:colcon.colcon_core.verb:set package 'input_img' build argument 'cmake_force_configure' from command line to 'False'
+[0.124s] Level 5:colcon.colcon_core.verb:set package 'input_img' build argument 'ament_cmake_args' from command line to 'None'
+[0.124s] Level 5:colcon.colcon_core.verb:set package 'input_img' build argument 'catkin_cmake_args' from command line to 'None'
+[0.124s] Level 5:colcon.colcon_core.verb:set package 'input_img' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.124s] DEBUG:colcon.colcon_core.verb:Building package 'input_img' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xybxy123/w_work/ros2_ws/build/input_img', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xybxy123/w_work/ros2_ws/install/input_img', 'merge_install': False, 'path': '/home/xybxy123/w_work/ros2_ws/src/input_img', 'symlink_install': False, 'test_result_base': None}
+[0.124s] Level 5:colcon.colcon_core.verb:set package 'ros2_yolos_cpp' build argument 'cmake_args' from command line to 'None'
+[0.124s] Level 5:colcon.colcon_core.verb:set package 'ros2_yolos_cpp' build argument 'cmake_target' from command line to 'None'
+[0.124s] Level 5:colcon.colcon_core.verb:set package 'ros2_yolos_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.124s] Level 5:colcon.colcon_core.verb:set package 'ros2_yolos_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.124s] Level 5:colcon.colcon_core.verb:set package 'ros2_yolos_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.124s] Level 5:colcon.colcon_core.verb:set package 'ros2_yolos_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.124s] Level 5:colcon.colcon_core.verb:set package 'ros2_yolos_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.124s] Level 5:colcon.colcon_core.verb:set package 'ros2_yolos_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.124s] Level 5:colcon.colcon_core.verb:set package 'ros2_yolos_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.124s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_yolos_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xybxy123/w_work/ros2_ws/build/ros2_yolos_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp', 'merge_install': False, 'path': '/home/xybxy123/w_work/ros2_ws/src/ros2_yolos_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.124s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_args' from command line to 'None'
+[0.124s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target' from command line to 'None'
+[0.124s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.124s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.124s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.124s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.124s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.124s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.124s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.124s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_ros2_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xybxy123/w_work/ros2_ws/build/ydlidar_ros2_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver', 'merge_install': False, 'path': '/home/xybxy123/w_work/ros2_ws/src/ydlidar_ros2_driver', 'symlink_install': False, 'test_result_base': None}
+[0.124s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox_ydlidar' build argument 'cmake_args' from command line to 'None'
+[0.124s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox_ydlidar' build argument 'cmake_target' from command line to 'None'
+[0.124s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox_ydlidar' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.124s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox_ydlidar' build argument 'cmake_clean_cache' from command line to 'False'
+[0.124s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox_ydlidar' build argument 'cmake_clean_first' from command line to 'False'
+[0.124s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox_ydlidar' build argument 'cmake_force_configure' from command line to 'False'
+[0.124s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox_ydlidar' build argument 'ament_cmake_args' from command line to 'None'
+[0.124s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox_ydlidar' build argument 'catkin_cmake_args' from command line to 'None'
+[0.124s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox_ydlidar' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.124s] DEBUG:colcon.colcon_core.verb:Building package 'slam_toolbox_ydlidar' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xybxy123/w_work/ros2_ws/build/slam_toolbox_ydlidar', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar', 'merge_install': False, 'path': '/home/xybxy123/w_work/ros2_ws/src/slam_toolbox_ydlidar', 'symlink_install': False, 'test_result_base': None}
+[0.124s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.125s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.126s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xybxy123/w_work/ros2_ws/src/ydlidar_ros2_driver' with build type 'ament_cmake'
+[0.126s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xybxy123/w_work/ros2_ws/src/ydlidar_ros2_driver'
+[0.127s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.127s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.127s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.129s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xybxy123/w_work/ros2_ws/src/input_img' with build type 'ament_cmake'
+[0.129s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xybxy123/w_work/ros2_ws/src/input_img'
+[0.129s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.129s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.130s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xybxy123/w_work/ros2_ws/src/ros2_yolos_cpp' with build type 'ament_cmake'
+[0.130s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xybxy123/w_work/ros2_ws/src/ros2_yolos_cpp'
+[0.130s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.130s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.134s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xybxy123/w_work/ros2_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/xybxy123/w_work/ros2_ws/src/ydlidar_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver
+[0.135s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xybxy123/w_work/ros2_ws/build/input_img': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/xybxy123/w_work/ros2_ws/src/input_img -DCMAKE_INSTALL_PREFIX=/home/xybxy123/w_work/ros2_ws/install/input_img
+[0.137s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xybxy123/w_work/ros2_ws/build/ros2_yolos_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/xybxy123/w_work/ros2_ws/src/ros2_yolos_cpp -DCMAKE_INSTALL_PREFIX=/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp
+[0.925s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xybxy123/w_work/ros2_ws/build/input_img' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/xybxy123/w_work/ros2_ws/src/input_img -DCMAKE_INSTALL_PREFIX=/home/xybxy123/w_work/ros2_ws/install/input_img
+[0.926s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xybxy123/w_work/ros2_ws/build/input_img': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/xybxy123/w_work/ros2_ws/build/input_img -- -j24 -l24
+[0.969s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xybxy123/w_work/ros2_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/xybxy123/w_work/ros2_ws/src/ydlidar_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver
+[0.970s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xybxy123/w_work/ros2_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/xybxy123/w_work/ros2_ws/build/ydlidar_ros2_driver -- -j24 -l24
+[5.492s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xybxy123/w_work/ros2_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/xybxy123/w_work/ros2_ws/build/ydlidar_ros2_driver -- -j24 -l24
+[5.499s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xybxy123/w_work/ros2_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/xybxy123/w_work/ros2_ws/build/ydlidar_ros2_driver
+[5.514s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[5.514s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xybxy123/w_work/ros2_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/xybxy123/w_work/ros2_ws/build/ydlidar_ros2_driver
+[5.515s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver' for CMake module files
+[5.515s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver' for CMake config files
+[5.515s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[5.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[5.516s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[5.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[5.516s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver/lib'
+[5.516s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver/bin'
+[5.516s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[5.517s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver/lib/python3.12/site-packages'
+[5.517s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver/bin'
+[5.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[5.517s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[5.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[5.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[5.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[5.518s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[5.519s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[5.519s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver' for CMake module files
+[5.519s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver' for CMake config files
+[5.519s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[5.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[5.519s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[5.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[5.520s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver/lib'
+[5.520s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver/bin'
+[5.520s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[5.520s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver/lib/python3.12/site-packages'
+[5.520s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver/bin'
+[5.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[5.521s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[5.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[5.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[5.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[5.521s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[5.522s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xybxy123/w_work/ros2_ws/src/slam_toolbox_ydlidar' with build type 'ament_cmake'
+[5.522s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xybxy123/w_work/ros2_ws/src/slam_toolbox_ydlidar'
+[5.522s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.522s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.528s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xybxy123/w_work/ros2_ws/build/slam_toolbox_ydlidar': CMAKE_PREFIX_PATH=/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver:/home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar:/home/xybxy123/w_work/ros2_ws/install/sparse_bundle_adjustment:/opt/ros/jazzy/opt/gz_launch_vendor:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/xybxy123/w_work/ros2_ws/src/slam_toolbox_ydlidar -DCMAKE_INSTALL_PREFIX=/home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar
+[5.586s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xybxy123/w_work/ros2_ws/build/input_img' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/xybxy123/w_work/ros2_ws/build/input_img -- -j24 -l24
+[5.586s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xybxy123/w_work/ros2_ws/build/input_img': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/xybxy123/w_work/ros2_ws/build/input_img
+[5.596s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(input_img)
+[5.596s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/input_img' for CMake module files
+[5.597s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xybxy123/w_work/ros2_ws/build/input_img' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/xybxy123/w_work/ros2_ws/build/input_img
+[5.597s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/input_img' for CMake config files
+[5.597s] Level 1:colcon.colcon_core.shell:create_environment_hook('input_img', 'cmake_prefix_path')
+[5.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/hook/cmake_prefix_path.ps1'
+[5.597s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/hook/cmake_prefix_path.dsv'
+[5.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/hook/cmake_prefix_path.sh'
+[5.598s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/input_img/lib'
+[5.598s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/input_img/bin'
+[5.598s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/input_img/lib/pkgconfig/input_img.pc'
+[5.598s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/input_img/lib/python3.12/site-packages'
+[5.598s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/input_img/bin'
+[5.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/package.ps1'
+[5.598s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/package.dsv'
+[5.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/package.sh'
+[5.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/package.bash'
+[5.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/package.zsh'
+[5.599s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xybxy123/w_work/ros2_ws/install/input_img/share/colcon-core/packages/input_img)
+[5.599s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(input_img)
+[5.599s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/input_img' for CMake module files
+[5.600s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/input_img' for CMake config files
+[5.600s] Level 1:colcon.colcon_core.shell:create_environment_hook('input_img', 'cmake_prefix_path')
+[5.600s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/hook/cmake_prefix_path.ps1'
+[5.600s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/hook/cmake_prefix_path.dsv'
+[5.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/hook/cmake_prefix_path.sh'
+[5.601s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/input_img/lib'
+[5.601s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/input_img/bin'
+[5.601s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/input_img/lib/pkgconfig/input_img.pc'
+[5.601s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/input_img/lib/python3.12/site-packages'
+[5.602s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/input_img/bin'
+[5.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/package.ps1'
+[5.602s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/package.dsv'
+[5.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/package.sh'
+[5.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/package.bash'
+[5.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/package.zsh'
+[5.603s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xybxy123/w_work/ros2_ws/install/input_img/share/colcon-core/packages/input_img)
+[7.209s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xybxy123/w_work/ros2_ws/build/slam_toolbox_ydlidar' returned '0': CMAKE_PREFIX_PATH=/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver:/home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar:/home/xybxy123/w_work/ros2_ws/install/sparse_bundle_adjustment:/opt/ros/jazzy/opt/gz_launch_vendor:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/xybxy123/w_work/ros2_ws/src/slam_toolbox_ydlidar -DCMAKE_INSTALL_PREFIX=/home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar
+[7.210s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xybxy123/w_work/ros2_ws/build/slam_toolbox_ydlidar': CMAKE_PREFIX_PATH=/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver:/home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar:/home/xybxy123/w_work/ros2_ws/install/sparse_bundle_adjustment:/opt/ros/jazzy/opt/gz_launch_vendor:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/xybxy123/w_work/ros2_ws/build/slam_toolbox_ydlidar -- -j24 -l24
+[7.251s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xybxy123/w_work/ros2_ws/build/slam_toolbox_ydlidar' returned '0': CMAKE_PREFIX_PATH=/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver:/home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar:/home/xybxy123/w_work/ros2_ws/install/sparse_bundle_adjustment:/opt/ros/jazzy/opt/gz_launch_vendor:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/xybxy123/w_work/ros2_ws/build/slam_toolbox_ydlidar -- -j24 -l24
+[7.252s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xybxy123/w_work/ros2_ws/build/slam_toolbox_ydlidar': CMAKE_PREFIX_PATH=/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver:/home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar:/home/xybxy123/w_work/ros2_ws/install/sparse_bundle_adjustment:/opt/ros/jazzy/opt/gz_launch_vendor:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/xybxy123/w_work/ros2_ws/build/slam_toolbox_ydlidar
+[7.264s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_toolbox_ydlidar)
+[7.264s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar' for CMake module files
+[7.264s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xybxy123/w_work/ros2_ws/build/slam_toolbox_ydlidar' returned '0': CMAKE_PREFIX_PATH=/home/xybxy123/w_work/ros2_ws/install/ydlidar_ros2_driver:/home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar:/home/xybxy123/w_work/ros2_ws/install/sparse_bundle_adjustment:/opt/ros/jazzy/opt/gz_launch_vendor:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/xybxy123/w_work/ros2_ws/build/slam_toolbox_ydlidar
+[7.265s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar' for CMake config files
+[7.265s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_toolbox_ydlidar', 'cmake_prefix_path')
+[7.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar/share/slam_toolbox_ydlidar/hook/cmake_prefix_path.ps1'
+[7.265s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar/share/slam_toolbox_ydlidar/hook/cmake_prefix_path.dsv'
+[7.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar/share/slam_toolbox_ydlidar/hook/cmake_prefix_path.sh'
+[7.266s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar/bin'
+[7.266s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar/lib/pkgconfig/slam_toolbox_ydlidar.pc'
+[7.266s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar/lib/python3.12/site-packages'
+[7.266s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar/bin'
+[7.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar/share/slam_toolbox_ydlidar/package.ps1'
+[7.266s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar/share/slam_toolbox_ydlidar/package.dsv'
+[7.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar/share/slam_toolbox_ydlidar/package.sh'
+[7.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar/share/slam_toolbox_ydlidar/package.bash'
+[7.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar/share/slam_toolbox_ydlidar/package.zsh'
+[7.267s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar/share/colcon-core/packages/slam_toolbox_ydlidar)
+[7.267s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_toolbox_ydlidar)
+[7.267s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar' for CMake module files
+[7.268s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar' for CMake config files
+[7.268s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_toolbox_ydlidar', 'cmake_prefix_path')
+[7.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar/share/slam_toolbox_ydlidar/hook/cmake_prefix_path.ps1'
+[7.268s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar/share/slam_toolbox_ydlidar/hook/cmake_prefix_path.dsv'
+[7.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar/share/slam_toolbox_ydlidar/hook/cmake_prefix_path.sh'
+[7.268s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar/bin'
+[7.268s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar/lib/pkgconfig/slam_toolbox_ydlidar.pc'
+[7.268s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar/lib/python3.12/site-packages'
+[7.269s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar/bin'
+[7.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar/share/slam_toolbox_ydlidar/package.ps1'
+[7.269s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar/share/slam_toolbox_ydlidar/package.dsv'
+[7.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar/share/slam_toolbox_ydlidar/package.sh'
+[7.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar/share/slam_toolbox_ydlidar/package.bash'
+[7.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar/share/slam_toolbox_ydlidar/package.zsh'
+[7.270s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xybxy123/w_work/ros2_ws/install/slam_toolbox_ydlidar/share/colcon-core/packages/slam_toolbox_ydlidar)
+[33.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xybxy123/w_work/ros2_ws/build/ros2_yolos_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/xybxy123/w_work/ros2_ws/src/ros2_yolos_cpp -DCMAKE_INSTALL_PREFIX=/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp
+[33.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xybxy123/w_work/ros2_ws/build/ros2_yolos_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/xybxy123/w_work/ros2_ws/build/ros2_yolos_cpp -- -j24 -l24
+[51.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xybxy123/w_work/ros2_ws/build/ros2_yolos_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/xybxy123/w_work/ros2_ws/build/ros2_yolos_cpp -- -j24 -l24
+[51.181s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xybxy123/w_work/ros2_ws/build/ros2_yolos_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/xybxy123/w_work/ros2_ws/build/ros2_yolos_cpp
+[51.266s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_yolos_cpp)
+[51.267s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp' for CMake module files
+[51.267s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xybxy123/w_work/ros2_ws/build/ros2_yolos_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/xybxy123/w_work/ros2_ws/build/ros2_yolos_cpp
+[51.267s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp' for CMake config files
+[51.267s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_yolos_cpp', 'cmake_prefix_path')
+[51.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/hook/cmake_prefix_path.ps1'
+[51.268s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/hook/cmake_prefix_path.dsv'
+[51.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/hook/cmake_prefix_path.sh'
+[51.268s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib'
+[51.268s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_yolos_cpp', 'ld_library_path_lib')
+[51.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/hook/ld_library_path_lib.ps1'
+[51.269s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/hook/ld_library_path_lib.dsv'
+[51.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/hook/ld_library_path_lib.sh'
+[51.269s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/bin'
+[51.269s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/pkgconfig/ros2_yolos_cpp.pc'
+[51.269s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages'
+[51.269s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_yolos_cpp', 'pythonpath')
+[51.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/hook/pythonpath.ps1'
+[51.269s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/hook/pythonpath.dsv'
+[51.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/hook/pythonpath.sh'
+[51.270s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/bin'
+[51.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/package.ps1'
+[51.270s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/package.dsv'
+[51.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/package.sh'
+[51.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/package.bash'
+[51.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/package.zsh'
+[51.271s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/colcon-core/packages/ros2_yolos_cpp)
+[51.271s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_yolos_cpp)
+[51.271s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp' for CMake module files
+[51.272s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp' for CMake config files
+[51.272s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_yolos_cpp', 'cmake_prefix_path')
+[51.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/hook/cmake_prefix_path.ps1'
+[51.272s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/hook/cmake_prefix_path.dsv'
+[51.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/hook/cmake_prefix_path.sh'
+[51.272s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib'
+[51.272s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_yolos_cpp', 'ld_library_path_lib')
+[51.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/hook/ld_library_path_lib.ps1'
+[51.273s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/hook/ld_library_path_lib.dsv'
+[51.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/hook/ld_library_path_lib.sh'
+[51.273s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/bin'
+[51.273s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/pkgconfig/ros2_yolos_cpp.pc'
+[51.273s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages'
+[51.273s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_yolos_cpp', 'pythonpath')
+[51.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/hook/pythonpath.ps1'
+[51.273s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/hook/pythonpath.dsv'
+[51.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/hook/pythonpath.sh'
+[51.274s] Level 1:colcon.colcon_core.environment:checking '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/bin'
+[51.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/package.ps1'
+[51.274s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/package.dsv'
+[51.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/package.sh'
+[51.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/package.bash'
+[51.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/package.zsh'
+[51.275s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/colcon-core/packages/ros2_yolos_cpp)
+[51.275s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[51.275s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[51.275s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[51.275s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[51.280s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[51.280s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[51.280s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[51.297s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[51.297s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xybxy123/w_work/ros2_ws/install/local_setup.ps1'
+[51.299s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/xybxy123/w_work/ros2_ws/install/_local_setup_util_ps1.py'
+[51.302s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xybxy123/w_work/ros2_ws/install/setup.ps1'
+[51.304s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xybxy123/w_work/ros2_ws/install/local_setup.sh'
+[51.305s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/xybxy123/w_work/ros2_ws/install/_local_setup_util_sh.py'
+[51.307s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xybxy123/w_work/ros2_ws/install/setup.sh'
+[51.310s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xybxy123/w_work/ros2_ws/install/local_setup.bash'
+[51.312s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xybxy123/w_work/ros2_ws/install/setup.bash'
+[51.314s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xybxy123/w_work/ros2_ws/install/local_setup.zsh'
+[51.315s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xybxy123/w_work/ros2_ws/install/setup.zsh'

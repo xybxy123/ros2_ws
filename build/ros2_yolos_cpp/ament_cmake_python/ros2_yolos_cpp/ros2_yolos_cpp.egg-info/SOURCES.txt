@@ -1,0 +1,12 @@
+setup.py
+ros2_yolos_cpp/__init__.py
+ros2_yolos_cpp.egg-info/PKG-INFO
+ros2_yolos_cpp.egg-info/SOURCES.txt
+ros2_yolos_cpp.egg-info/dependency_links.txt
+ros2_yolos_cpp.egg-info/top_level.txt
+ros2_yolos_cpp/msg/__init__.py
+ros2_yolos_cpp/msg/_key_point2_d.py
+ros2_yolos_cpp/msg/_key_point2_d_array.py
+ros2_yolos_cpp/msg/_obb_detection2_d.py
+ros2_yolos_cpp/msg/_obb_detection2_d_array.py
+ros2_yolos_cpp/msg/_oriented_bounding_box2_d.py

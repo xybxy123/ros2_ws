@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ros2_yolos_cpp__py",
+		"source" : "/home/xybxy123/w_work/ros2_ws/build/ros2_yolos_cpp/ros2_yolos_cpp__py"
+	}
+}
