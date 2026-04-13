@@ -1,0 +1,9 @@
+[0.012s] Invoking command in '/home/xybxy123/w_work/ros2_ws/build/depth_camera_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/xybxy123/w_work/ros2_ws/build/depth_camera_pub -- -j24 -l24
+[0.054s] [ 50%] [32mBuilding CXX object CMakeFiles/depth_camera_pub_node.dir/src/depth_pub_node.cpp.o[0m
+[4.093s] [100%] [32m[1mLinking CXX executable depth_camera_pub_node[0m
+[4.121s] /usr/bin/ld: 找不到 -lobSensor: 没有那个文件或目录
+[4.208s] collect2: error: ld returned 1 exit status
+[4.209s] gmake[2]: *** [CMakeFiles/depth_camera_pub_node.dir/build.make:240：depth_camera_pub_node] 错误 1
+[4.210s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/depth_camera_pub_node.dir/all] 错误 2
+[4.210s] gmake: *** [Makefile:146：all] 错误 2
+[4.211s] Invoked command in '/home/xybxy123/w_work/ros2_ws/build/depth_camera_pub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/xybxy123/w_work/ros2_ws/build/depth_camera_pub -- -j24 -l24

@@ -1,0 +1,38 @@
+[  1%] Built target slam_toolbox__rosidl_generator_type_description
+[  1%] Built target ament_cmake_python_symlink_slam_toolbox
+[  2%] Built target slam_toolbox__cpp
+[ 23%] Built target slam_toolbox__rosidl_generator_c
+[ 25%] Built target kartoSlamToolbox
+[ 33%] Built target slam_toolbox__rosidl_typesupport_introspection_c
+[ 44%] Built target slam_toolbox__rosidl_typesupport_introspection_cpp
+[ 49%] Built target slam_toolbox__rosidl_typesupport_fastrtps_cpp
+[ 56%] Built target slam_toolbox__rosidl_typesupport_cpp
+[ 63%] Built target slam_toolbox__rosidl_typesupport_c
+[ 70%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c
+[ 70%] Built target slam_toolbox
+[ 71%] Built target ceres_solver_plugin
+[ 73%] Built target SlamToolboxPlugin
+[ 73%] Built target slam_toolbox__py
+[ 77%] Built target toolbox_common
+[ 84%] Built target slam_toolbox__rosidl_generator_py
+[ 88%] Built target merge_maps_kinematic
+[ 88%] Built target localization_slam_toolbox
+[ 88%] Built target async_slam_toolbox
+[ 91%] Built target slam_toolbox_s__rosidl_typesupport_fastrtps_c
+[ 91%] Built target slam_toolbox_s__rosidl_typesupport_c
+[ 92%] Built target slam_toolbox_s__rosidl_typesupport_introspection_c
+[ 93%] Built target sync_slam_toolbox
+[ 94%] Built target lifelong_slam_toolbox
+[ 95%] Built target map_and_localization_slam_toolbox
+[ 96%] Built target sync_slam_toolbox_node
+[ 97%] Built target async_slam_toolbox_node
+[ 98%] Built target localization_slam_toolbox_node
+[ 99%] Built target lifelong_slam_toolbox_node
+[100%] Built target map_and_localization_slam_toolbox_node
+running egg_info
+writing slam_toolbox.egg-info/PKG-INFO
+writing dependency_links to slam_toolbox.egg-info/dependency_links.txt
+writing top-level names to slam_toolbox.egg-info/top_level.txt
+reading manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+writing manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_slam_toolbox_egg

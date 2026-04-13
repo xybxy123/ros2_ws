@@ -1,0 +1,19 @@
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/xybxy123/w_work/ros2_ws/build/depth_camera_pub
+gmake[2]: *** 没有规则可制作目标“/home/xybxy123/soft/OrbbecSDK/build/install/lib/libobSensor.so”，由“depth_camera_pub_node” 需求。 停止。
+gmake[2]: *** 正在等待未完成的任务....
+[ 50%] [32mBuilding CXX object CMakeFiles/depth_camera_pub_node.dir/src/depth_pub_node.cpp.o[0m
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/depth_camera_pub_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

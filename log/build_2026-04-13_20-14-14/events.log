@@ -1,0 +1,424 @@
+[0.000000] (-) TimerEvent: {}
+[0.000108] (-) JobUnselected: {'identifier': 'circle_detector'}
+[0.000134] (-) JobUnselected: {'identifier': 'depth_camera_pub'}
+[0.000151] (-) JobUnselected: {'identifier': 'input_img'}
+[0.000180] (-) JobUnselected: {'identifier': 'rf2o_laser_odometry'}
+[0.000201] (-) JobUnselected: {'identifier': 'slam_toolbox'}
+[0.000244] (-) JobUnselected: {'identifier': 'ydlidar_ros2_driver'}
+[0.000261] (ros2_yolos_cpp) JobQueued: {'identifier': 'ros2_yolos_cpp', 'dependencies': OrderedDict()}
+[0.000280] (ros2_yolos_cpp) JobStarted: {'identifier': 'ros2_yolos_cpp'}
+[0.006440] (ros2_yolos_cpp) JobProgress: {'identifier': 'ros2_yolos_cpp', 'progress': 'cmake'}
+[0.007399] (ros2_yolos_cpp) JobProgress: {'identifier': 'ros2_yolos_cpp', 'progress': 'build'}
+[0.007922] (ros2_yolos_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/xybxy123/w_work/ros2_ws/build/ros2_yolos_cpp', '--', '-j24', '-l24'], 'cwd': '/home/xybxy123/w_work/ros2_ws/build/ros2_yolos_cpp', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:en', 'USER': 'xybxy123', 'LC_TIME': 'C.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_launch_vendor/share/gz:/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'LIBREALSENSE2_UVC_ENABLE': '1', 'GIT_EDITOR': ':', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_launch_vendor/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/xybxy123', 'CHROME_DESKTOP': 'code.desktop', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/xybxy123/w_work', 'TERM_PROGRAM_VERSION': '1.112.0', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'C.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1814', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2323', 'BUNDLED_DEBUGPY_PATH': '/home/xybxy123/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'CHROME_EXECUTABLE': 'chromium', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'FLUTTER_STORAGE_BASE_URL': 'https://storage.flutter-io.cn', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', '_CONDA_ROOT': '/home/xybxy123/miniconda3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '509186', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'https_proxy': 'http://127.0.0.1:7897', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'xybxy123', 'ALL_PROXY': 'socks5://127.0.0.1:7897', 'http_proxy': 'http://127.0.0.1:7897', 'JOURNAL_STREAM': '9:13024', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig:', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'xybxy123', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'FC_FONTATIONS': '1', 'HISTCONTROL': 'ignorespace', 'PUB_HOSTED_URL': 'https://pub.flutter-io.cn', 'WINDOWPATH': '2', 'PATH': '/home/xybxy123/soft/flutter/flutter/bin:/home/xybxy123/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/xybxy123/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/xybxy123/.local/bin:/home/xybxy123/soft/flutter/flutter/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/xybxy123/miniconda3/condabin:/home/xybxy123/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/MATLAB/R2024a/bin:/home/xybxy123/.fishros/bin/:/opt/xtensa-esp-elf/bin/:/home/xybxy123/Android/Sdk/cmdline-tools/latest/bin:/home/xybxy123/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts:/usr/local/MATLAB/R2024a/bin:/home/xybxy123/.fishros/bin/:/opt/xtensa-esp-elf/bin/:/home/xybxy123/Android/Sdk/cmdline-tools/latest/bin', 'SESSION_MANAGER': 'local/xybxy123:@/tmp/.ICE-unix/2230,unix/xybxy123:/tmp/.ICE-unix/2230', 'INVOCATION_ID': 'ba480e3194a04134a30beff346bc93bc', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'C.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/xybxy123/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-6d0271ade94f6778.txt', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/xybxy123/.config/Code/User/workspaceStorage/b1c80315d2bc2ffda1d1c1a7749b47b2/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'C.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-65e4afaaa7.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/xybxy123/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'C.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'C.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', '_CONDA_EXE': '/home/xybxy123/miniconda3/bin/conda', 'LC_IDENTIFICATION': 'C.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'GIT_PAGER': 'cat', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/xybxy123/w_work/ros2_ws/build/ros2_yolos_cpp', 'GIT_MERGE_AUTOEDIT': 'no', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/xybxy123/miniconda3/bin/conda', 'CLUTTER_IM_MODULE': 'fcitx', 'ANDROID_HOME': '/home/xybxy123/Android/Sdk', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages::/home/xybxy123/w_work/genesis_ws/Genesis:/home/xybxy123/w_work/genesis_ws/Genesis', 'LC_NUMERIC': 'C.UTF-8', 'LC_PAPER': 'C.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_launch_vendor:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099671] (-) TimerEvent: {}
+[0.199319] (ros2_yolos_cpp) StdoutLine: {'line': b'[  0%] Built target ros2_yolos_cpp__rosidl_generator_type_description\n'}
+[0.199660] (-) TimerEvent: {}
+[0.209449] (ros2_yolos_cpp) StdoutLine: {'line': b'[  2%] Built target gtest_main\n'}
+[0.210199] (ros2_yolos_cpp) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_ros2_yolos_cpp\n'}
+[0.213978] (ros2_yolos_cpp) StdoutLine: {'line': b'[  3%] Built target gtest\n'}
+[0.220526] (ros2_yolos_cpp) StdoutLine: {'line': b'[  5%] Built target yolos_classifier_node\n'}
+[0.220799] (ros2_yolos_cpp) StdoutLine: {'line': b'[  7%] Built target yolos_detector_node\n'}
+[0.220987] (ros2_yolos_cpp) StdoutLine: {'line': b'[  8%] Built target yolos_segmentor_node\n'}
+[0.221117] (ros2_yolos_cpp) StdoutLine: {'line': b'[ 10%] Built target yolos_pose_node\n'}
+[0.221738] (ros2_yolos_cpp) StdoutLine: {'line': b'[ 12%] Built target yolos_obb_node\n'}
+[0.228960] (ros2_yolos_cpp) StdoutLine: {'line': b'[ 13%] Built target ros2_yolos_cpp__cpp\n'}
+[0.237460] (ros2_yolos_cpp) StdoutLine: {'line': b'[ 27%] Built target ros2_yolos_cpp__rosidl_generator_c\n'}
+[0.258356] (ros2_yolos_cpp) StdoutLine: {'line': b'[ 40%] Built target ros2_yolos_cpp__rosidl_typesupport_fastrtps_cpp\n'}
+[0.258469] (ros2_yolos_cpp) StdoutLine: {'line': b'[ 40%] Built target ros2_yolos_cpp__rosidl_typesupport_cpp\n'}
+[0.259801] (ros2_yolos_cpp) StdoutLine: {'line': b'[ 46%] Built target ros2_yolos_cpp__rosidl_typesupport_introspection_c\n'}
+[0.260289] (ros2_yolos_cpp) StdoutLine: {'line': b'[ 52%] Built target ros2_yolos_cpp__rosidl_typesupport_c\n'}
+[0.261743] (ros2_yolos_cpp) StdoutLine: {'line': b'[ 64%] Built target ros2_yolos_cpp__rosidl_typesupport_introspection_cpp\n'}
+[0.261886] (ros2_yolos_cpp) StdoutLine: {'line': b'[ 64%] Built target ros2_yolos_cpp__rosidl_typesupport_fastrtps_c\n'}
+[0.275539] (ros2_yolos_cpp) StdoutLine: {'line': b'[ 64%] Built target ros2_yolos_cpp\n'}
+[0.291249] (ros2_yolos_cpp) StdoutLine: {'line': b'[ 65%] Built target ros2_yolos_cpp__py\n'}
+[0.293311] (ros2_yolos_cpp) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/ros2_yolos_cpp_components.dir/src/nodes/detector_node.cpp.o\x1b[0m\n'}
+[0.299725] (-) TimerEvent: {}
+[0.313631] (ros2_yolos_cpp) StdoutLine: {'line': b'[ 72%] Built target ros2_yolos_cpp__rosidl_generator_py\n'}
+[0.334249] (ros2_yolos_cpp) StdoutLine: {'line': b'[ 74%] Built target ros2_yolos_cpp_s__rosidl_typesupport_introspection_c\n'}
+[0.334448] (ros2_yolos_cpp) StdoutLine: {'line': b'[ 76%] Built target ros2_yolos_cpp_s__rosidl_typesupport_c\n'}
+[0.334745] (ros2_yolos_cpp) StdoutLine: {'line': b'[ 78%] Built target ros2_yolos_cpp_s__rosidl_typesupport_fastrtps_c\n'}
+[0.345176] (ros2_yolos_cpp) StdoutLine: {'line': b'running egg_info\n'}
+[0.354690] (ros2_yolos_cpp) StdoutLine: {'line': b'writing ros2_yolos_cpp.egg-info/PKG-INFO\n'}
+[0.354886] (ros2_yolos_cpp) StdoutLine: {'line': b'writing dependency_links to ros2_yolos_cpp.egg-info/dependency_links.txt\n'}
+[0.354979] (ros2_yolos_cpp) StdoutLine: {'line': b'writing top-level names to ros2_yolos_cpp.egg-info/top_level.txt\n'}
+[0.381203] (ros2_yolos_cpp) StdoutLine: {'line': b"reading manifest file 'ros2_yolos_cpp.egg-info/SOURCES.txt'\n"}
+[0.381709] (ros2_yolos_cpp) StdoutLine: {'line': b"writing manifest file 'ros2_yolos_cpp.egg-info/SOURCES.txt'\n"}
+[0.398721] (ros2_yolos_cpp) StdoutLine: {'line': b'[ 78%] Built target ament_cmake_python_build_ros2_yolos_cpp_egg\n'}
+[0.399781] (-) TimerEvent: {}
+[0.499932] (-) TimerEvent: {}
+[0.600225] (-) TimerEvent: {}
+[0.700443] (-) TimerEvent: {}
+[0.800755] (-) TimerEvent: {}
+[0.900960] (-) TimerEvent: {}
+[1.001247] (-) TimerEvent: {}
+[1.101526] (-) TimerEvent: {}
+[1.201810] (-) TimerEvent: {}
+[1.302119] (-) TimerEvent: {}
+[1.402417] (-) TimerEvent: {}
+[1.502721] (-) TimerEvent: {}
+[1.602982] (-) TimerEvent: {}
+[1.703271] (-) TimerEvent: {}
+[1.803538] (-) TimerEvent: {}
+[1.903867] (-) TimerEvent: {}
+[2.004082] (-) TimerEvent: {}
+[2.104323] (-) TimerEvent: {}
+[2.204685] (-) TimerEvent: {}
+[2.305153] (-) TimerEvent: {}
+[2.405452] (-) TimerEvent: {}
+[2.505826] (-) TimerEvent: {}
+[2.606170] (-) TimerEvent: {}
+[2.706483] (-) TimerEvent: {}
+[2.806747] (-) TimerEvent: {}
+[2.906941] (-) TimerEvent: {}
+[3.007170] (-) TimerEvent: {}
+[3.107367] (-) TimerEvent: {}
+[3.207598] (-) TimerEvent: {}
+[3.307803] (-) TimerEvent: {}
+[3.408033] (-) TimerEvent: {}
+[3.508301] (-) TimerEvent: {}
+[3.608554] (-) TimerEvent: {}
+[3.708747] (-) TimerEvent: {}
+[3.809008] (-) TimerEvent: {}
+[3.909270] (-) TimerEvent: {}
+[4.009480] (-) TimerEvent: {}
+[4.109683] (-) TimerEvent: {}
+[4.209898] (-) TimerEvent: {}
+[4.310123] (-) TimerEvent: {}
+[4.410378] (-) TimerEvent: {}
+[4.510643] (-) TimerEvent: {}
+[4.610837] (-) TimerEvent: {}
+[4.711086] (-) TimerEvent: {}
+[4.811330] (-) TimerEvent: {}
+[4.911605] (-) TimerEvent: {}
+[5.011857] (-) TimerEvent: {}
+[5.112123] (-) TimerEvent: {}
+[5.212396] (-) TimerEvent: {}
+[5.312661] (-) TimerEvent: {}
+[5.412929] (-) TimerEvent: {}
+[5.513169] (-) TimerEvent: {}
+[5.613426] (-) TimerEvent: {}
+[5.713698] (-) TimerEvent: {}
+[5.813898] (-) TimerEvent: {}
+[5.914153] (-) TimerEvent: {}
+[6.014385] (-) TimerEvent: {}
+[6.114618] (-) TimerEvent: {}
+[6.214824] (-) TimerEvent: {}
+[6.315011] (-) TimerEvent: {}
+[6.415221] (-) TimerEvent: {}
+[6.515483] (-) TimerEvent: {}
+[6.615714] (-) TimerEvent: {}
+[6.715905] (-) TimerEvent: {}
+[6.816175] (-) TimerEvent: {}
+[6.916415] (-) TimerEvent: {}
+[7.016679] (-) TimerEvent: {}
+[7.116932] (-) TimerEvent: {}
+[7.217187] (-) TimerEvent: {}
+[7.317551] (-) TimerEvent: {}
+[7.417807] (-) TimerEvent: {}
+[7.518002] (-) TimerEvent: {}
+[7.618244] (-) TimerEvent: {}
+[7.718469] (-) TimerEvent: {}
+[7.818729] (-) TimerEvent: {}
+[7.918922] (-) TimerEvent: {}
+[8.019174] (-) TimerEvent: {}
+[8.119454] (-) TimerEvent: {}
+[8.219689] (-) TimerEvent: {}
+[8.319879] (-) TimerEvent: {}
+[8.420095] (-) TimerEvent: {}
+[8.520319] (-) TimerEvent: {}
+[8.620579] (-) TimerEvent: {}
+[8.720868] (-) TimerEvent: {}
+[8.821167] (-) TimerEvent: {}
+[8.921450] (-) TimerEvent: {}
+[9.021780] (-) TimerEvent: {}
+[9.122131] (-) TimerEvent: {}
+[9.222358] (-) TimerEvent: {}
+[9.322545] (-) TimerEvent: {}
+[9.422746] (-) TimerEvent: {}
+[9.522937] (-) TimerEvent: {}
+[9.623143] (-) TimerEvent: {}
+[9.723361] (-) TimerEvent: {}
+[9.823571] (-) TimerEvent: {}
+[9.923765] (-) TimerEvent: {}
+[10.008869] (ros2_yolos_cpp) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libros2_yolos_cpp_components.so\x1b[0m\n'}
+[10.023854] (-) TimerEvent: {}
+[10.124098] (-) TimerEvent: {}
+[10.224340] (-) TimerEvent: {}
+[10.252534] (ros2_yolos_cpp) StdoutLine: {'line': b'[ 90%] Built target ros2_yolos_cpp_components\n'}
+[10.272122] (ros2_yolos_cpp) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable test_detection_converter\x1b[0m\n'}
+[10.272303] (ros2_yolos_cpp) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable test_integration_segmentation\x1b[0m\n'}
+[10.274875] (ros2_yolos_cpp) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable test_integration_obb\x1b[0m\n'}
+[10.276903] (ros2_yolos_cpp) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX executable test_integration_classification\x1b[0m\n'}
+[10.277068] (ros2_yolos_cpp) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX executable test_integration_pose\x1b[0m\n'}
+[10.277605] (ros2_yolos_cpp) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable test_integration_detection\x1b[0m\n'}
+[10.324491] (-) TimerEvent: {}
+[10.424960] (-) TimerEvent: {}
+[10.426810] (ros2_yolos_cpp) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_imgcodecs.so.406, needed by /opt/ros/jazzy/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.408\n'}
+[10.427681] (ros2_yolos_cpp) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_core.so.406, needed by /opt/ros/jazzy/lib/libcv_bridge.so, may conflict with libopencv_core.so.408\n'}
+[10.449993] (ros2_yolos_cpp) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_imgcodecs.so.406, needed by /opt/ros/jazzy/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.408\n'}
+[10.451354] (ros2_yolos_cpp) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_core.so.406, needed by /opt/ros/jazzy/lib/libcv_bridge.so, may conflict with libopencv_core.so.408\n'}
+[10.525067] (-) TimerEvent: {}
+[10.625387] (-) TimerEvent: {}
+[10.650287] (ros2_yolos_cpp) StdoutLine: {'line': b'[ 95%] Built target test_detection_converter\n'}
+[10.656822] (ros2_yolos_cpp) StdoutLine: {'line': b'[ 96%] Built target test_integration_obb\n'}
+[10.663272] (ros2_yolos_cpp) StdoutLine: {'line': b'[ 98%] Built target test_integration_detection\n'}
+[10.663453] (ros2_yolos_cpp) StdoutLine: {'line': b'[ 98%] Built target test_integration_classification\n'}
+[10.670830] (ros2_yolos_cpp) StdoutLine: {'line': b'[ 99%] Built target test_integration_pose\n'}
+[10.680966] (ros2_yolos_cpp) StdoutLine: {'line': b'[100%] Built target test_integration_segmentation\n'}
+[10.691271] (ros2_yolos_cpp) CommandEnded: {'returncode': 0}
+[10.692258] (ros2_yolos_cpp) JobProgress: {'identifier': 'ros2_yolos_cpp', 'progress': 'install'}
+[10.704637] (ros2_yolos_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/xybxy123/w_work/ros2_ws/build/ros2_yolos_cpp'], 'cwd': '/home/xybxy123/w_work/ros2_ws/build/ros2_yolos_cpp', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:en', 'USER': 'xybxy123', 'LC_TIME': 'C.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_launch_vendor/share/gz:/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'LIBREALSENSE2_UVC_ENABLE': '1', 'GIT_EDITOR': ':', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_launch_vendor/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/xybxy123', 'CHROME_DESKTOP': 'code.desktop', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/xybxy123/w_work', 'TERM_PROGRAM_VERSION': '1.112.0', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'C.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1814', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2323', 'BUNDLED_DEBUGPY_PATH': '/home/xybxy123/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'CHROME_EXECUTABLE': 'chromium', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'FLUTTER_STORAGE_BASE_URL': 'https://storage.flutter-io.cn', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', '_CONDA_ROOT': '/home/xybxy123/miniconda3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '509186', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'https_proxy': 'http://127.0.0.1:7897', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'xybxy123', 'ALL_PROXY': 'socks5://127.0.0.1:7897', 'http_proxy': 'http://127.0.0.1:7897', 'JOURNAL_STREAM': '9:13024', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig:', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'xybxy123', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'FC_FONTATIONS': '1', 'HISTCONTROL': 'ignorespace', 'PUB_HOSTED_URL': 'https://pub.flutter-io.cn', 'WINDOWPATH': '2', 'PATH': '/home/xybxy123/soft/flutter/flutter/bin:/home/xybxy123/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/xybxy123/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/xybxy123/.local/bin:/home/xybxy123/soft/flutter/flutter/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/xybxy123/miniconda3/condabin:/home/xybxy123/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/MATLAB/R2024a/bin:/home/xybxy123/.fishros/bin/:/opt/xtensa-esp-elf/bin/:/home/xybxy123/Android/Sdk/cmdline-tools/latest/bin:/home/xybxy123/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts:/usr/local/MATLAB/R2024a/bin:/home/xybxy123/.fishros/bin/:/opt/xtensa-esp-elf/bin/:/home/xybxy123/Android/Sdk/cmdline-tools/latest/bin', 'SESSION_MANAGER': 'local/xybxy123:@/tmp/.ICE-unix/2230,unix/xybxy123:/tmp/.ICE-unix/2230', 'INVOCATION_ID': 'ba480e3194a04134a30beff346bc93bc', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'C.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/xybxy123/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-6d0271ade94f6778.txt', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/xybxy123/.config/Code/User/workspaceStorage/b1c80315d2bc2ffda1d1c1a7749b47b2/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'C.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-65e4afaaa7.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/xybxy123/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'C.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'C.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', '_CONDA_EXE': '/home/xybxy123/miniconda3/bin/conda', 'LC_IDENTIFICATION': 'C.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'GIT_PAGER': 'cat', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/xybxy123/w_work/ros2_ws/build/ros2_yolos_cpp', 'GIT_MERGE_AUTOEDIT': 'no', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/xybxy123/miniconda3/bin/conda', 'CLUTTER_IM_MODULE': 'fcitx', 'ANDROID_HOME': '/home/xybxy123/Android/Sdk', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages::/home/xybxy123/w_work/genesis_ws/Genesis:/home/xybxy123/w_work/genesis_ws/Genesis', 'LC_NUMERIC': 'C.UTF-8', 'LC_PAPER': 'C.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_launch_vendor:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[10.724438] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[10.725483] (-) TimerEvent: {}
+[10.725963] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ament_index/resource_index/rosidl_interfaces/ros2_yolos_cpp\n'}
+[10.726509] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/msg/OrientedBoundingBox2D.json\n'}
+[10.727061] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/msg/OBBDetection2D.json\n'}
+[10.727243] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/msg/OBBDetection2DArray.json\n'}
+[10.727379] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/msg/KeyPoint2D.json\n'}
+[10.727509] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/msg/KeyPoint2DArray.json\n'}
+[10.727668] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp\n'}
+[10.727792] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg\n'}
+[10.727909] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/oriented_bounding_box2_d.h\n'}
+[10.728132] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/obb_detection2_d_array.h\n'}
+[10.728249] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/key_point2_d.h\n'}
+[10.728365] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail\n'}
+[10.728484] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d__functions.c\n'}
+[10.728606] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d_array__functions.h\n'}
+[10.728755] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/oriented_bounding_box2_d__functions.c\n'}
+[10.728861] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d__struct.h\n'}
+[10.728973] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/oriented_bounding_box2_d__type_support.h\n'}
+[10.729086] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/oriented_bounding_box2_d__type_support.c\n'}
+[10.729195] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/oriented_bounding_box2_d__description.c\n'}
+[10.729301] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d__functions.h\n'}
+[10.729409] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/oriented_bounding_box2_d__struct.h\n'}
+[10.729515] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d_array__functions.c\n'}
+[10.729643] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d__description.c\n'}
+[10.729755] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d__functions.c\n'}
+[10.729860] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d_array__description.c\n'}
+[10.729963] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d__type_support.c\n'}
+[10.730069] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d__struct.h\n'}
+[10.730179] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d_array__type_support.h\n'}
+[10.730281] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d__type_support.h\n'}
+[10.730388] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d_array__struct.h\n'}
+[10.730489] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d__description.c\n'}
+[10.730599] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d_array__struct.h\n'}
+[10.730714] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d__functions.h\n'}
+[10.730816] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d__type_support.c\n'}
+[10.730915] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/oriented_bounding_box2_d__functions.h\n'}
+[10.731120] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d_array__functions.c\n'}
+[10.731233] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d_array__type_support.c\n'}
+[10.731338] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d_array__description.c\n'}
+[10.731438] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d__type_support.h\n'}
+[10.731537] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d_array__type_support.c\n'}
+[10.731662] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d_array__type_support.h\n'}
+[10.732285] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d_array__functions.h\n'}
+[10.732434] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/rosidl_generator_c__visibility_control.h\n'}
+[10.732543] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/obb_detection2_d.h\n'}
+[10.732685] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/key_point2_d_array.h\n'}
+[10.732784] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/environment/library_path.sh\n'}
+[10.732874] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/environment/library_path.dsv\n'}
+[10.732962] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/libros2_yolos_cpp__rosidl_generator_c.so\n'}
+[10.733050] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp\n'}
+[10.733134] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg\n'}
+[10.733220] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[10.733309] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail\n'}
+[10.733393] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d__rosidl_typesupport_fastrtps_c.h\n'}
+[10.733477] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d_array__rosidl_typesupport_fastrtps_c.h\n'}
+[10.733568] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/oriented_bounding_box2_d__rosidl_typesupport_fastrtps_c.h\n'}
+[10.733670] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d__rosidl_typesupport_fastrtps_c.h\n'}
+[10.733752] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d_array__rosidl_typesupport_fastrtps_c.h\n'}
+[10.733832] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/libros2_yolos_cpp__rosidl_typesupport_fastrtps_c.so\n'}
+[10.733912] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp\n'}
+[10.733994] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg\n'}
+[10.734078] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/obb_detection2_d.hpp\n'}
+[10.734164] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/key_point2_d.hpp\n'}
+[10.734246] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail\n'}
+[10.734327] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/oriented_bounding_box2_d__traits.hpp\n'}
+[10.734406] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d_array__struct.hpp\n'}
+[10.734485] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d__type_support.hpp\n'}
+[10.734572] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d_array__type_support.hpp\n'}
+[10.734666] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d_array__traits.hpp\n'}
+[10.734751] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/oriented_bounding_box2_d__type_support.hpp\n'}
+[10.734831] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d__builder.hpp\n'}
+[10.734911] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d_array__struct.hpp\n'}
+[10.734988] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d_array__builder.hpp\n'}
+[10.735063] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d_array__traits.hpp\n'}
+[10.735138] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d__struct.hpp\n'}
+[10.735214] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d_array__type_support.hpp\n'}
+[10.735293] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d__struct.hpp\n'}
+[10.735370] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d__traits.hpp\n'}
+[10.735447] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d__type_support.hpp\n'}
+[10.735524] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d__builder.hpp\n'}
+[10.735597] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d__traits.hpp\n'}
+[10.735703] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d_array__builder.hpp\n'}
+[10.735783] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/oriented_bounding_box2_d__struct.hpp\n'}
+[10.735858] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/oriented_bounding_box2_d__builder.hpp\n'}
+[10.735938] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/oriented_bounding_box2_d.hpp\n'}
+[10.736013] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/obb_detection2_d_array.hpp\n'}
+[10.736090] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[10.736166] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/key_point2_d_array.hpp\n'}
+[10.736244] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp\n'}
+[10.736321] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg\n'}
+[10.736395] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[10.736473] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail\n'}
+[10.736550] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/dds_fastrtps\n'}
+[10.736641] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.736722] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.736801] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/oriented_bounding_box2_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.736879] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.736955] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.737152] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/libros2_yolos_cpp__rosidl_typesupport_fastrtps_cpp.so\n'}
+[10.737264] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp\n'}
+[10.737339] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg\n'}
+[10.737416] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[10.737495] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail\n'}
+[10.737578] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/oriented_bounding_box2_d__type_support.c\n'}
+[10.737696] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d_array__rosidl_typesupport_introspection_c.h\n'}
+[10.737773] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d__rosidl_typesupport_introspection_c.h\n'}
+[10.737846] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d__rosidl_typesupport_introspection_c.h\n'}
+[10.737923] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d__type_support.c\n'}
+[10.737999] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d_array__rosidl_typesupport_introspection_c.h\n'}
+[10.738073] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d__type_support.c\n'}
+[10.738150] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d_array__type_support.c\n'}
+[10.738226] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d_array__type_support.c\n'}
+[10.738303] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/oriented_bounding_box2_d__rosidl_typesupport_introspection_c.h\n'}
+[10.738365] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/libros2_yolos_cpp__rosidl_typesupport_introspection_c.so\n'}
+[10.738459] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/libros2_yolos_cpp__rosidl_typesupport_c.so\n'}
+[10.738562] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp\n'}
+[10.738635] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg\n'}
+[10.738695] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail\n'}
+[10.738822] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.738889] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d_array__type_support.cpp\n'}
+[10.738951] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d__type_support.cpp\n'}
+[10.739012] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.739137] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/oriented_bounding_box2_d__type_support.cpp\n'}
+[10.739206] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.739266] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d_array__type_support.cpp\n'}
+[10.739322] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.739380] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/oriented_bounding_box2_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.739435] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d__type_support.cpp\n'}
+[10.742926] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/libros2_yolos_cpp__rosidl_typesupport_introspection_cpp.so\n'}
+[10.743379] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/libros2_yolos_cpp__rosidl_typesupport_cpp.so\n'}
+[10.743617] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/environment/pythonpath.sh\n'}
+[10.743704] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/environment/pythonpath.dsv\n'}
+[10.743776] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp-1.0.0-py3.12.egg-info\n'}
+[10.743848] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Installing: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp-1.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[10.744276] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Installing: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp-1.0.0-py3.12.egg-info/top_level.txt\n'}
+[10.744418] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Installing: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp-1.0.0-py3.12.egg-info/PKG-INFO\n'}
+[10.744576] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Installing: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp-1.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[10.744825] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp\n'}
+[10.744895] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp/ros2_yolos_cpp_s__rosidl_typesupport_fastrtps_c.so\n'}
+[10.744987] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp/ros2_yolos_cpp_s__rosidl_typesupport_introspection_c.so\n'}
+[10.745049] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp/_ros2_yolos_cpp_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[10.745158] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp/__init__.py\n'}
+[10.745276] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp/_ros2_yolos_cpp_s.ep.rosidl_typesupport_c.c\n'}
+[10.745364] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp/ros2_yolos_cpp_s__rosidl_typesupport_c.so\n'}
+[10.745428] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp/_ros2_yolos_cpp_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[10.745490] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp/msg\n'}
+[10.745554] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp/msg/_key_point2_d_array.py\n'}
+[10.745627] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp/msg/_obb_detection2_d_array.py\n'}
+[10.745694] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp/msg/_key_point2_d_array_s.c\n'}
+[10.745755] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp/msg/_key_point2_d.py\n'}
+[10.745816] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp/msg/_oriented_bounding_box2_d.py\n'}
+[10.745878] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp/msg/_obb_detection2_d_s.c\n'}
+[10.745938] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp/msg/__init__.py\n'}
+[10.745996] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp/msg/_obb_detection2_d_array_s.c\n'}
+[10.746084] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp/msg/_key_point2_d_s.c\n'}
+[10.746150] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp/msg/_obb_detection2_d.py\n'}
+[10.746206] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp/msg/_oriented_bounding_box2_d_s.c\n'}
+[10.779961] (ros2_yolos_cpp) StdoutLine: {'line': b"Listing '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp'...\n"}
+[10.780056] (ros2_yolos_cpp) StdoutLine: {'line': b"Listing '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp/msg'...\n"}
+[10.783467] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp/ros2_yolos_cpp_s__rosidl_typesupport_fastrtps_c.so\n'}
+[10.783550] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp/ros2_yolos_cpp_s__rosidl_typesupport_introspection_c.so\n'}
+[10.783897] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp/ros2_yolos_cpp_s__rosidl_typesupport_c.so\n'}
+[10.784405] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/libros2_yolos_cpp__rosidl_generator_py.so\n'}
+[10.784491] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/msg/OrientedBoundingBox2D.idl\n'}
+[10.784530] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/msg/OBBDetection2D.idl\n'}
+[10.784561] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/msg/OBBDetection2DArray.idl\n'}
+[10.784590] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/msg/KeyPoint2D.idl\n'}
+[10.784627] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/msg/KeyPoint2DArray.idl\n'}
+[10.784659] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/msg/OrientedBoundingBox2D.msg\n'}
+[10.784686] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/msg/OBBDetection2D.msg\n'}
+[10.784718] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/msg/OBBDetection2DArray.msg\n'}
+[10.784899] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/msg/KeyPoint2D.msg\n'}
+[10.784937] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/msg/KeyPoint2DArray.msg\n'}
+[10.784968] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/ros2_yolos_cpp/yolos_detector_node\n'}
+[10.785142] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/ros2_yolos_cpp/yolos_segmentor_node\n'}
+[10.785589] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/ros2_yolos_cpp/yolos_pose_node\n'}
+[10.785968] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/ros2_yolos_cpp/yolos_obb_node\n'}
+[10.786276] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/ros2_yolos_cpp/yolos_classifier_node\n'}
+[10.786467] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Installing: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/libros2_yolos_cpp_components.so\n'}
+[10.787849] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/libros2_yolos_cpp_components.so" to "/home/xybxy123/w_work/ros2_ws/build/ros2_yolos_cpp/onnxruntime/lib"\n'}
+[10.787887] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include\n'}
+[10.787917] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp\n'}
+[10.787948] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/nodes\n'}
+[10.787977] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/nodes/obb_node.hpp\n'}
+[10.788007] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/nodes/classifier_node.hpp\n'}
+[10.788061] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/nodes/pose_node.hpp\n'}
+[10.788096] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/nodes/segmentor_node.hpp\n'}
+[10.788126] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/nodes/detector_node.hpp\n'}
+[10.788155] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/visibility_control.hpp\n'}
+[10.788183] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/conversion\n'}
+[10.788210] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/conversion/classification_converter.hpp\n'}
+[10.788237] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/conversion/detection_converter.hpp\n'}
+[10.788266] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/conversion/pose_converter.hpp\n'}
+[10.788294] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/conversion/segmentation_converter.hpp\n'}
+[10.788322] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/conversion/obb_converter.hpp\n'}
+[10.788360] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/adapters\n'}
+[10.788388] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/adapters/detector_adapter.hpp\n'}
+[10.788416] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/adapters/pose_adapter.hpp\n'}
+[10.788444] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/adapters/yolos_adapter_base.hpp\n'}
+[10.788472] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/adapters/obb_adapter.hpp\n'}
+[10.788500] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/adapters/segmentor_adapter.hpp\n'}
+[10.788527] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/adapters/classifier_adapter.hpp\n'}
+[10.788579] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/launch\n'}
+[10.788610] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/launch/segmentor.launch.py\n'}
+[10.788653] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/launch/classifier.launch.py\n'}
+[10.788679] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/launch/obb.launch.py\n'}
+[10.788705] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/launch/pose.launch.py\n'}
+[10.788731] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/launch/detector.launch.py\n'}
+[10.788757] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/config\n'}
+[10.788783] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/config/default_params.yaml\n'}
+[10.788809] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ament_index/resource_index/package_run_dependencies/ros2_yolos_cpp\n'}
+[10.788836] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ament_index/resource_index/parent_prefix_path/ros2_yolos_cpp\n'}
+[10.788863] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/environment/ament_prefix_path.sh\n'}
+[10.788890] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/environment/ament_prefix_path.dsv\n'}
+[10.788918] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/environment/path.sh\n'}
+[10.788970] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/environment/path.dsv\n'}
+[10.789003] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/local_setup.bash\n'}
+[10.789031] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/local_setup.sh\n'}
+[10.789066] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/local_setup.zsh\n'}
+[10.789093] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/local_setup.dsv\n'}
+[10.789120] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Installing: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/package.dsv\n'}
+[10.789148] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ament_index/resource_index/packages/ros2_yolos_cpp\n'}
+[10.789175] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/export_ros2_yolos_cpp__rosidl_generator_cExport.cmake\n'}
+[10.789204] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/export_ros2_yolos_cpp__rosidl_generator_cExport-release.cmake\n'}
+[10.789240] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/export_ros2_yolos_cpp__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[10.789266] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/export_ros2_yolos_cpp__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[10.789411] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/export_ros2_yolos_cpp__rosidl_generator_cppExport.cmake\n'}
+[10.789537] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/export_ros2_yolos_cpp__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[10.789583] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/export_ros2_yolos_cpp__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[10.789756] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/ros2_yolos_cpp__rosidl_typesupport_introspection_cExport.cmake\n'}
+[10.789796] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/ros2_yolos_cpp__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[10.790015] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/ros2_yolos_cpp__rosidl_typesupport_cExport.cmake\n'}
+[10.790054] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/ros2_yolos_cpp__rosidl_typesupport_cExport-release.cmake\n'}
+[10.790203] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/ros2_yolos_cpp__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[10.790241] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/ros2_yolos_cpp__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[10.790373] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/ros2_yolos_cpp__rosidl_typesupport_cppExport.cmake\n'}
+[10.790410] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/ros2_yolos_cpp__rosidl_typesupport_cppExport-release.cmake\n'}
+[10.790588] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/export_ros2_yolos_cpp__rosidl_generator_pyExport.cmake\n'}
+[10.790633] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/export_ros2_yolos_cpp__rosidl_generator_pyExport-release.cmake\n'}
+[10.790665] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ament_index/resource_index/rclcpp_components/ros2_yolos_cpp\n'}
+[10.790709] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/rosidl_cmake-extras.cmake\n'}
+[10.790739] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.790769] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[10.790798] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[10.790835] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[10.790881] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[10.790909] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[10.790936] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/ros2_yolos_cppConfig.cmake\n'}
+[10.790963] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/ros2_yolos_cppConfig-version.cmake\n'}
+[10.790990] (ros2_yolos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/package.xml\n'}
+[10.792132] (ros2_yolos_cpp) CommandEnded: {'returncode': 0}
+[10.809370] (ros2_yolos_cpp) JobEnded: {'identifier': 'ros2_yolos_cpp', 'rc': 0}
+[10.809877] (-) EventReactorShutdown: {}

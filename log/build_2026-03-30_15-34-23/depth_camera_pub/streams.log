@@ -1,0 +1,36 @@
+[0.013s] Invoking command in '/home/xybxy123/w_work/ros2_ws/build/depth_camera_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/xybxy123/w_work/ros2_ws/build/depth_camera_pub -- -j24 -l24
+[0.032s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.179s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.196s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.201s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.207s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.215s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.250s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.250s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.296s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.334s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.366s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[0.374s] -- Found OpenCV: /usr/local (found suitable version "4.8.0", minimum required is "4") 
+[0.430s] -- Configuring done (0.4s)
+[0.438s] -- Generating done (0.0s)
+[0.440s] -- Build files have been written to: /home/xybxy123/w_work/ros2_ws/build/depth_camera_pub
+[0.470s] [ 50%] [32mBuilding CXX object CMakeFiles/depth_camera_pub_node.dir/src/depth_pub_node.cpp.o[0m
+[2.344s] [01m[K/home/xybxy123/w_work/ros2_ws/src/depth_camera_pub/src/depth_pub_node.cpp:[m[K In constructor ‘[01m[KDepthCameraPublisher::DepthCameraPublisher()[m[K’:
+[2.344s] [01m[K/home/xybxy123/w_work/ros2_ws/src/depth_camera_pub/src/depth_pub_node.cpp:26:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class ob::DeviceList[m[K’ {aka ‘[01m[Kclass ob::DeviceList[m[K’} has no member named ‘[01m[KcreateDevice[m[K’; did you mean ‘[01m[KgetDevice[m[K’?
+[2.344s]    26 |         device_ = dev_list->[01;31m[KcreateDevice[m[K(0);
+[2.344s]       |                             [01;31m[K^~~~~~~~~~~~[m[K
+[2.344s]       |                             [32m[KgetDevice[m[K
+[2.348s] [01m[K/home/xybxy123/w_work/ros2_ws/src/depth_camera_pub/src/depth_pub_node.cpp:31:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class ob::Device[m[K’ {aka ‘[01m[Kclass ob::Device[m[K’} has no member named ‘[01m[KenableStream[m[K’
+[2.348s]    31 |         device_->[01;31m[KenableStream[m[K(depth_profile);
+[2.348s]       |                  [01;31m[K^~~~~~~~~~~~[m[K
+[2.348s] [01m[K/home/xybxy123/w_work/ros2_ws/src/depth_camera_pub/src/depth_pub_node.cpp:32:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class ob::Device[m[K’ {aka ‘[01m[Kclass ob::Device[m[K’} has no member named ‘[01m[KstartStream[m[K’
+[2.348s]    32 |         device_->[01;31m[KstartStream[m[K();
+[2.348s]       |                  [01;31m[K^~~~~~~~~~~[m[K
+[2.354s] [01m[K/home/xybxy123/w_work/ros2_ws/src/depth_camera_pub/src/depth_pub_node.cpp:[m[K In member function ‘[01m[Kvoid DepthCameraPublisher::timer_callback()[m[K’:
+[2.354s] [01m[K/home/xybxy123/w_work/ros2_ws/src/depth_camera_pub/src/depth_pub_node.cpp:43:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class ob::Device[m[K’ {aka ‘[01m[Kclass ob::Device[m[K’} has no member named ‘[01m[KgetFrameSet[m[K’
+[2.354s]    43 |         auto frame_set = device_->[01;31m[KgetFrameSet[m[K(100);
+[2.354s]       |                                   [01;31m[K^~~~~~~~~~~[m[K
+[3.181s] gmake[2]: *** [CMakeFiles/depth_camera_pub_node.dir/build.make:76：CMakeFiles/depth_camera_pub_node.dir/src/depth_pub_node.cpp.o] 错误 1
+[3.181s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/depth_camera_pub_node.dir/all] 错误 2
+[3.182s] gmake: *** [Makefile:146：all] 错误 2
+[3.183s] Invoked command in '/home/xybxy123/w_work/ros2_ws/build/depth_camera_pub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/xybxy123/w_work/ros2_ws/build/depth_camera_pub -- -j24 -l24

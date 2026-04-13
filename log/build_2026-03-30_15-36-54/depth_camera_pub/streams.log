@@ -1,0 +1,19 @@
+[0.013s] Invoking command in '/home/xybxy123/w_work/ros2_ws/build/depth_camera_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/xybxy123/w_work/ros2_ws/build/depth_camera_pub -- -j24 -l24
+[0.036s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.196s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.213s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.218s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.225s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.232s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.267s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.268s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.312s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.350s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.383s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[0.441s] -- Configuring done (0.4s)
+[0.449s] -- Generating done (0.0s)
+[0.451s] -- Build files have been written to: /home/xybxy123/w_work/ros2_ws/build/depth_camera_pub
+[0.484s] gmake[2]: *** 没有规则可制作目标“/home/xybxy123/soft/OrbbecSDK/build/lib/libobSensor.so”，由“depth_camera_pub_node” 需求。 停止。
+[0.484s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/depth_camera_pub_node.dir/all] 错误 2
+[0.484s] gmake: *** [Makefile:146：all] 错误 2
+[0.486s] Invoked command in '/home/xybxy123/w_work/ros2_ws/build/depth_camera_pub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/xybxy123/w_work/ros2_ws/build/depth_camera_pub -- -j24 -l24

@@ -1,0 +1,24 @@
+[0.013s] Invoking command in '/home/xybxy123/w_work/ros2_ws/build/depth_camera_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/xybxy123/w_work/ros2_ws/build/depth_camera_pub -- -j24 -l24
+[0.036s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.226s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.244s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.248s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.255s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.262s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.297s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.298s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.346s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.385s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.419s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[0.510s] -- Configuring done (0.5s)
+[0.520s] -- Generating done (0.0s)
+[0.522s] -- Build files have been written to: /home/xybxy123/w_work/ros2_ws/build/depth_camera_pub
+[0.557s] [ 50%] [32mBuilding CXX object CMakeFiles/depth_camera_pub_node.dir/src/depth_pub_node.cpp.o[0m
+[0.563s] [01m[K/home/xybxy123/w_work/ros2_ws/src/depth_camera_pub/src/depth_pub_node.cpp:1:10:[m[K [01;31m[Kfatal error: [m[KObSensor.hpp: 没有那个文件或目录
+[0.563s]     1 | #include [01;31m[K<ObSensor.hpp>[m[K
+[0.563s]       |          [01;31m[K^~~~~~~~~~~~~~[m[K
+[0.563s] compilation terminated.
+[0.564s] gmake[2]: *** [CMakeFiles/depth_camera_pub_node.dir/build.make:76：CMakeFiles/depth_camera_pub_node.dir/src/depth_pub_node.cpp.o] 错误 1
+[0.564s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/depth_camera_pub_node.dir/all] 错误 2
+[0.564s] gmake: *** [Makefile:146：all] 错误 2
+[0.566s] Invoked command in '/home/xybxy123/w_work/ros2_ws/build/depth_camera_pub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/xybxy123/w_work/ros2_ws/build/depth_camera_pub -- -j24 -l24

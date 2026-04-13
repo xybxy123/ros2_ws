@@ -1,0 +1,24 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/circle_detector_node.dir/src/circle_detector.cpp.o[0m
+[100%] [32m[1mLinking CXX executable circle_detector_node[0m
+[100%] Built target circle_detector_node
+-- Install configuration: ""
+-- Installing: /home/xybxy123/w_work/ros2_ws/install/circle_detector/lib/circle_detector/circle_detector_node
+-- Set non-toolchain portion of runtime path of "/home/xybxy123/w_work/ros2_ws/install/circle_detector/lib/circle_detector/circle_detector_node" to ""
+-- Installing: /home/xybxy123/w_work/ros2_ws/install/circle_detector/include
+-- Installing: /home/xybxy123/w_work/ros2_ws/install/circle_detector/include/circle_detector
+-- Installing: /home/xybxy123/w_work/ros2_ws/install/circle_detector/include/circle_detector/circle_config.hpp
+-- Installing: /home/xybxy123/w_work/ros2_ws/install/circle_detector/share/ament_index/resource_index/package_run_dependencies/circle_detector
+-- Installing: /home/xybxy123/w_work/ros2_ws/install/circle_detector/share/ament_index/resource_index/parent_prefix_path/circle_detector
+-- Installing: /home/xybxy123/w_work/ros2_ws/install/circle_detector/share/circle_detector/environment/ament_prefix_path.sh
+-- Installing: /home/xybxy123/w_work/ros2_ws/install/circle_detector/share/circle_detector/environment/ament_prefix_path.dsv
+-- Installing: /home/xybxy123/w_work/ros2_ws/install/circle_detector/share/circle_detector/environment/path.sh
+-- Installing: /home/xybxy123/w_work/ros2_ws/install/circle_detector/share/circle_detector/environment/path.dsv
+-- Installing: /home/xybxy123/w_work/ros2_ws/install/circle_detector/share/circle_detector/local_setup.bash
+-- Installing: /home/xybxy123/w_work/ros2_ws/install/circle_detector/share/circle_detector/local_setup.sh
+-- Installing: /home/xybxy123/w_work/ros2_ws/install/circle_detector/share/circle_detector/local_setup.zsh
+-- Installing: /home/xybxy123/w_work/ros2_ws/install/circle_detector/share/circle_detector/local_setup.dsv
+-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/circle_detector/share/circle_detector/package.dsv
+-- Installing: /home/xybxy123/w_work/ros2_ws/install/circle_detector/share/ament_index/resource_index/packages/circle_detector
+-- Installing: /home/xybxy123/w_work/ros2_ws/install/circle_detector/share/circle_detector/cmake/circle_detectorConfig.cmake
+-- Installing: /home/xybxy123/w_work/ros2_ws/install/circle_detector/share/circle_detector/cmake/circle_detectorConfig-version.cmake
+-- Installing: /home/xybxy123/w_work/ros2_ws/install/circle_detector/share/circle_detector/package.xml

@@ -1,0 +1,19 @@
+[100%] Built target yolo_main_node
+-- Install configuration: ""
+-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/input_img/lib/input_img/yolo_main_node
+-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/launch
+-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/input_img/share/ament_index/resource_index/package_run_dependencies/input_img
+-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/input_img/share/ament_index/resource_index/parent_prefix_path/input_img
+-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/environment/ament_prefix_path.sh
+-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/environment/path.sh
+-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/environment/path.dsv
+-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/local_setup.bash
+-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/local_setup.sh
+-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/local_setup.zsh
+-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/local_setup.dsv
+-- Installing: /home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/package.dsv
+-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/input_img/share/ament_index/resource_index/packages/input_img
+-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/cmake/input_imgConfig.cmake
+-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/cmake/input_imgConfig-version.cmake
+-- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/input_img/share/input_img/package.xml

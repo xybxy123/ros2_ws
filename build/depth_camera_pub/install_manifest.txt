@@ -1,0 +1,16 @@
+/home/xybxy123/w_work/ros2_ws/install/depth_camera_pub/lib/depth_camera_pub/depth_camera_pub_node
+/home/xybxy123/w_work/ros2_ws/install/depth_camera_pub/share/ament_index/resource_index/package_run_dependencies/depth_camera_pub
+/home/xybxy123/w_work/ros2_ws/install/depth_camera_pub/share/ament_index/resource_index/parent_prefix_path/depth_camera_pub
+/home/xybxy123/w_work/ros2_ws/install/depth_camera_pub/share/depth_camera_pub/environment/ament_prefix_path.sh
+/home/xybxy123/w_work/ros2_ws/install/depth_camera_pub/share/depth_camera_pub/environment/ament_prefix_path.dsv
+/home/xybxy123/w_work/ros2_ws/install/depth_camera_pub/share/depth_camera_pub/environment/path.sh
+/home/xybxy123/w_work/ros2_ws/install/depth_camera_pub/share/depth_camera_pub/environment/path.dsv
+/home/xybxy123/w_work/ros2_ws/install/depth_camera_pub/share/depth_camera_pub/local_setup.bash
+/home/xybxy123/w_work/ros2_ws/install/depth_camera_pub/share/depth_camera_pub/local_setup.sh
+/home/xybxy123/w_work/ros2_ws/install/depth_camera_pub/share/depth_camera_pub/local_setup.zsh
+/home/xybxy123/w_work/ros2_ws/install/depth_camera_pub/share/depth_camera_pub/local_setup.dsv
+/home/xybxy123/w_work/ros2_ws/install/depth_camera_pub/share/depth_camera_pub/package.dsv
+/home/xybxy123/w_work/ros2_ws/install/depth_camera_pub/share/ament_index/resource_index/packages/depth_camera_pub
+/home/xybxy123/w_work/ros2_ws/install/depth_camera_pub/share/depth_camera_pub/cmake/depth_camera_pubConfig.cmake
+/home/xybxy123/w_work/ros2_ws/install/depth_camera_pub/share/depth_camera_pub/cmake/depth_camera_pubConfig-version.cmake
+/home/xybxy123/w_work/ros2_ws/install/depth_camera_pub/share/depth_camera_pub/package.xml

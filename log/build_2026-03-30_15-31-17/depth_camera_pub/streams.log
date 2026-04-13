@@ -1,0 +1,19 @@
+[0.014s] Invoking command in '/home/xybxy123/w_work/ros2_ws/build/depth_camera_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/xybxy123/w_work/ros2_ws/src/depth_camera_pub -DCMAKE_INSTALL_PREFIX=/home/xybxy123/w_work/ros2_ws/install/depth_camera_pub
+[0.062s] -- The C compiler identification is GNU 11.5.0
+[0.120s] -- The CXX compiler identification is GNU 11.5.0
+[0.145s] -- Detecting C compiler ABI info
+[0.211s] -- Detecting C compiler ABI info - done
+[0.217s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.217s] -- Detecting C compile features
+[0.218s] -- Detecting C compile features - done
+[0.226s] -- Detecting CXX compiler ABI info
+[0.291s] -- Detecting CXX compiler ABI info - done
+[0.296s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.297s] -- Detecting CXX compile features
+[0.297s] -- Detecting CXX compile features - done
+[0.297s] [31mCMake Error at CMakeLists.txt:5 (add_compileoptions):
+[0.297s]   Unknown CMake command "add_compileoptions".
+[0.297s] 
+[0.297s] [0m
+[0.298s] -- Configuring incomplete, errors occurred!
+[0.300s] Invoked command in '/home/xybxy123/w_work/ros2_ws/build/depth_camera_pub' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/xybxy123/w_work/ros2_ws/src/depth_camera_pub -DCMAKE_INSTALL_PREFIX=/home/xybxy123/w_work/ros2_ws/install/depth_camera_pub

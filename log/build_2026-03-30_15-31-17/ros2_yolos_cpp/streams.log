@@ -1,0 +1,38 @@
+[0.011s] Invoking command in '/home/xybxy123/w_work/ros2_ws/build/ros2_yolos_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/xybxy123/w_work/ros2_ws/build/ros2_yolos_cpp -- -j24 -l24
+[0.085s] [  0%] Built target ros2_yolos_cpp__rosidl_generator_type_description
+[0.093s] [  2%] Built target gtest_main
+[0.097s] [  3%] Built target gtest
+[0.097s] [  3%] Built target ament_cmake_python_copy_ros2_yolos_cpp
+[0.109s] [  5%] Built target yolos_detector_node
+[0.109s] [  6%] Built target yolos_obb_node
+[0.110s] [  8%] Built target yolos_classifier_node
+[0.112s] [ 22%] Built target ros2_yolos_cpp__rosidl_generator_c
+[0.112s] [ 24%] Built target yolos_pose_node
+[0.113s] [ 25%] Built target ros2_yolos_cpp__cpp
+[0.114s] [ 27%] Built target yolos_segmentor_node
+[0.142s] [ 33%] Built target ros2_yolos_cpp__rosidl_typesupport_introspection_c
+[0.142s] [ 39%] Built target ros2_yolos_cpp__rosidl_typesupport_cpp
+[0.143s] [ 51%] Built target ros2_yolos_cpp__rosidl_typesupport_c
+[0.143s] [ 51%] Built target ros2_yolos_cpp__rosidl_typesupport_fastrtps_c
+[0.144s] [ 58%] Built target ros2_yolos_cpp__rosidl_typesupport_fastrtps_cpp
+[0.144s] [ 64%] Built target ros2_yolos_cpp__rosidl_typesupport_introspection_cpp
+[0.158s] [ 64%] Built target ros2_yolos_cpp
+[0.174s] [ 65%] Built target ros2_yolos_cpp__py
+[0.177s] [ 78%] Built target ros2_yolos_cpp_components
+[0.196s] [ 79%] Built target test_detection_converter
+[0.196s] [ 85%] Built target ros2_yolos_cpp__rosidl_generator_py
+[0.196s] [ 88%] Built target test_integration_detection
+[0.196s] [ 89%] Built target test_integration_pose
+[0.196s] [ 90%] Built target test_integration_obb
+[0.199s] [ 92%] Built target test_integration_classification
+[0.202s] [ 94%] Built target test_integration_segmentation
+[0.210s] [ 96%] Built target ros2_yolos_cpp_s__rosidl_typesupport_c
+[0.212s] [ 98%] Built target ros2_yolos_cpp_s__rosidl_typesupport_introspection_c
+[0.215s] [100%] Built target ros2_yolos_cpp_s__rosidl_typesupport_fastrtps_c
+[0.253s] running egg_info
+[0.263s] writing ros2_yolos_cpp.egg-info/PKG-INFO
+[0.263s] writing dependency_links to ros2_yolos_cpp.egg-info/dependency_links.txt
+[0.263s] writing top-level names to ros2_yolos_cpp.egg-info/top_level.txt
+[0.291s] reading manifest file 'ros2_yolos_cpp.egg-info/SOURCES.txt'
+[0.292s] writing manifest file 'ros2_yolos_cpp.egg-info/SOURCES.txt'
+[0.311s] [100%] Built target ament_cmake_python_build_ros2_yolos_cpp_egg

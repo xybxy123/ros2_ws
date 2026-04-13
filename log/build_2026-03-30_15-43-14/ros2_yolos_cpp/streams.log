@@ -1,0 +1,290 @@
+[0.011s] Invoking command in '/home/xybxy123/w_work/ros2_ws/build/ros2_yolos_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/xybxy123/w_work/ros2_ws/build/ros2_yolos_cpp -- -j24 -l24
+[0.051s] [  0%] Built target ros2_yolos_cpp__rosidl_generator_type_description
+[0.052s] [  3%] Built target gtest
+[0.052s] [  3%] Built target gtest_main
+[0.054s] [  7%] Built target yolos_pose_node
+[0.054s] [  7%] Built target yolos_segmentor_node
+[0.055s] [  9%] Built target yolos_obb_node
+[0.055s] [ 10%] Built target yolos_detector_node
+[0.056s] [ 12%] Built target yolos_classifier_node
+[0.059s] [ 12%] Built target ament_cmake_python_copy_ros2_yolos_cpp
+[0.065s] [ 13%] Built target ros2_yolos_cpp__cpp
+[0.067s] [ 27%] Built target ros2_yolos_cpp__rosidl_generator_c
+[0.085s] [ 39%] Built target ros2_yolos_cpp__rosidl_typesupport_fastrtps_cpp
+[0.085s] [ 40%] Built target ros2_yolos_cpp__rosidl_typesupport_c
+[0.085s] [ 46%] Built target ros2_yolos_cpp__rosidl_typesupport_introspection_cpp
+[0.086s] [ 52%] Built target ros2_yolos_cpp__rosidl_typesupport_fastrtps_c
+[0.088s] [ 58%] Built target ros2_yolos_cpp__rosidl_typesupport_cpp
+[0.089s] [ 64%] Built target ros2_yolos_cpp__rosidl_typesupport_introspection_c
+[0.102s] [ 64%] Built target ros2_yolos_cpp
+[0.113s] [ 77%] Built target ros2_yolos_cpp_components
+[0.120s] [ 78%] Built target ros2_yolos_cpp__py
+[0.131s] [ 79%] Built target test_detection_converter
+[0.131s] [ 81%] Built target test_integration_classification
+[0.133s] [ 83%] Built target test_integration_detection
+[0.134s] [ 85%] Built target test_integration_pose
+[0.135s] [ 86%] Built target test_integration_obb
+[0.136s] [ 88%] Built target test_integration_segmentation
+[0.140s] [ 94%] Built target ros2_yolos_cpp__rosidl_generator_py
+[0.156s] [ 96%] Built target ros2_yolos_cpp_s__rosidl_typesupport_introspection_c
+[0.157s] [ 98%] Built target ros2_yolos_cpp_s__rosidl_typesupport_c
+[0.158s] [100%] Built target ros2_yolos_cpp_s__rosidl_typesupport_fastrtps_c
+[0.199s] running egg_info
+[0.208s] writing ros2_yolos_cpp.egg-info/PKG-INFO
+[0.208s] writing dependency_links to ros2_yolos_cpp.egg-info/dependency_links.txt
+[0.208s] writing top-level names to ros2_yolos_cpp.egg-info/top_level.txt
+[0.235s] reading manifest file 'ros2_yolos_cpp.egg-info/SOURCES.txt'
+[0.236s] writing manifest file 'ros2_yolos_cpp.egg-info/SOURCES.txt'
+[0.253s] [100%] Built target ament_cmake_python_build_ros2_yolos_cpp_egg
+[0.262s] Invoked command in '/home/xybxy123/w_work/ros2_ws/build/ros2_yolos_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/xybxy123/w_work/ros2_ws/build/ros2_yolos_cpp -- -j24 -l24
+[0.264s] Invoking command in '/home/xybxy123/w_work/ros2_ws/build/ros2_yolos_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/xybxy123/w_work/ros2_ws/build/ros2_yolos_cpp
+[0.272s] -- Install configuration: "Release"
+[0.272s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ament_index/resource_index/rosidl_interfaces/ros2_yolos_cpp
+[0.272s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/msg/OrientedBoundingBox2D.json
+[0.272s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/msg/OBBDetection2D.json
+[0.272s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/msg/OBBDetection2DArray.json
+[0.272s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/msg/KeyPoint2D.json
+[0.272s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/msg/KeyPoint2DArray.json
+[0.272s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp
+[0.272s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg
+[0.272s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/oriented_bounding_box2_d.h
+[0.272s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/obb_detection2_d_array.h
+[0.272s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/key_point2_d.h
+[0.272s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail
+[0.272s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d__functions.c
+[0.272s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d_array__functions.h
+[0.272s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/oriented_bounding_box2_d__functions.c
+[0.273s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d__struct.h
+[0.273s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/oriented_bounding_box2_d__type_support.h
+[0.273s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/oriented_bounding_box2_d__type_support.c
+[0.273s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/oriented_bounding_box2_d__description.c
+[0.273s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d__functions.h
+[0.273s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/oriented_bounding_box2_d__struct.h
+[0.273s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d_array__functions.c
+[0.273s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d__description.c
+[0.273s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d__functions.c
+[0.273s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d_array__description.c
+[0.273s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d__type_support.c
+[0.273s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d__struct.h
+[0.273s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d_array__type_support.h
+[0.273s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d__type_support.h
+[0.273s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d_array__struct.h
+[0.273s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d__description.c
+[0.273s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d_array__struct.h
+[0.273s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d__functions.h
+[0.273s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d__type_support.c
+[0.273s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/oriented_bounding_box2_d__functions.h
+[0.273s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d_array__functions.c
+[0.273s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d_array__type_support.c
+[0.273s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d_array__description.c
+[0.273s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d__type_support.h
+[0.273s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d_array__type_support.c
+[0.273s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d_array__type_support.h
+[0.273s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d_array__functions.h
+[0.273s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/rosidl_generator_c__visibility_control.h
+[0.273s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/obb_detection2_d.h
+[0.274s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/key_point2_d_array.h
+[0.274s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/environment/library_path.sh
+[0.274s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/environment/library_path.dsv
+[0.274s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/libros2_yolos_cpp__rosidl_generator_c.so
+[0.274s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp
+[0.274s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg
+[0.274s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.274s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail
+[0.274s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d__rosidl_typesupport_fastrtps_c.h
+[0.274s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d_array__rosidl_typesupport_fastrtps_c.h
+[0.274s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/oriented_bounding_box2_d__rosidl_typesupport_fastrtps_c.h
+[0.275s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d__rosidl_typesupport_fastrtps_c.h
+[0.275s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d_array__rosidl_typesupport_fastrtps_c.h
+[0.275s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/libros2_yolos_cpp__rosidl_typesupport_fastrtps_c.so
+[0.275s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp
+[0.275s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg
+[0.275s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/obb_detection2_d.hpp
+[0.275s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/key_point2_d.hpp
+[0.275s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail
+[0.275s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/oriented_bounding_box2_d__traits.hpp
+[0.275s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d_array__struct.hpp
+[0.275s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d__type_support.hpp
+[0.275s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d_array__type_support.hpp
+[0.275s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d_array__traits.hpp
+[0.275s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/oriented_bounding_box2_d__type_support.hpp
+[0.275s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d__builder.hpp
+[0.275s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d_array__struct.hpp
+[0.275s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d_array__builder.hpp
+[0.275s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d_array__traits.hpp
+[0.275s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d__struct.hpp
+[0.275s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d_array__type_support.hpp
+[0.275s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d__struct.hpp
+[0.275s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d__traits.hpp
+[0.275s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d__type_support.hpp
+[0.275s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d__builder.hpp
+[0.275s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d__traits.hpp
+[0.275s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d_array__builder.hpp
+[0.275s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/oriented_bounding_box2_d__struct.hpp
+[0.275s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/oriented_bounding_box2_d__builder.hpp
+[0.275s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/oriented_bounding_box2_d.hpp
+[0.275s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/obb_detection2_d_array.hpp
+[0.277s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.277s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/key_point2_d_array.hpp
+[0.277s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp
+[0.277s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg
+[0.277s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.277s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail
+[0.277s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/dds_fastrtps
+[0.277s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[0.277s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[0.277s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/oriented_bounding_box2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[0.277s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d_array__rosidl_typesupport_fastrtps_cpp.hpp
+[0.277s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d_array__rosidl_typesupport_fastrtps_cpp.hpp
+[0.277s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/libros2_yolos_cpp__rosidl_typesupport_fastrtps_cpp.so
+[0.277s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp
+[0.277s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg
+[0.277s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.277s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail
+[0.277s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/oriented_bounding_box2_d__type_support.c
+[0.277s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d_array__rosidl_typesupport_introspection_c.h
+[0.277s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d__rosidl_typesupport_introspection_c.h
+[0.277s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d__rosidl_typesupport_introspection_c.h
+[0.277s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d__type_support.c
+[0.277s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d_array__rosidl_typesupport_introspection_c.h
+[0.277s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d__type_support.c
+[0.277s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d_array__type_support.c
+[0.277s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d_array__type_support.c
+[0.277s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/oriented_bounding_box2_d__rosidl_typesupport_introspection_c.h
+[0.277s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/libros2_yolos_cpp__rosidl_typesupport_introspection_c.so
+[0.278s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/libros2_yolos_cpp__rosidl_typesupport_c.so
+[0.278s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp
+[0.278s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg
+[0.278s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail
+[0.278s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d_array__rosidl_typesupport_introspection_cpp.hpp
+[0.278s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d_array__type_support.cpp
+[0.278s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d__type_support.cpp
+[0.278s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d_array__rosidl_typesupport_introspection_cpp.hpp
+[0.278s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/oriented_bounding_box2_d__type_support.cpp
+[0.278s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/obb_detection2_d__rosidl_typesupport_introspection_cpp.hpp
+[0.278s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d_array__type_support.cpp
+[0.278s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d__rosidl_typesupport_introspection_cpp.hpp
+[0.278s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/oriented_bounding_box2_d__rosidl_typesupport_introspection_cpp.hpp
+[0.278s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/ros2_yolos_cpp/msg/detail/key_point2_d__type_support.cpp
+[0.278s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/libros2_yolos_cpp__rosidl_typesupport_introspection_cpp.so
+[0.278s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/libros2_yolos_cpp__rosidl_typesupport_cpp.so
+[0.278s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/environment/pythonpath.sh
+[0.278s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/environment/pythonpath.dsv
+[0.278s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp-1.0.0-py3.12.egg-info
+[0.278s] -- Installing: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp-1.0.0-py3.12.egg-info/SOURCES.txt
+[0.278s] -- Installing: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp-1.0.0-py3.12.egg-info/top_level.txt
+[0.278s] -- Installing: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp-1.0.0-py3.12.egg-info/PKG-INFO
+[0.278s] -- Installing: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp-1.0.0-py3.12.egg-info/dependency_links.txt
+[0.278s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp
+[0.279s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp/ros2_yolos_cpp_s__rosidl_typesupport_fastrtps_c.so
+[0.279s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp/ros2_yolos_cpp_s__rosidl_typesupport_introspection_c.so
+[0.279s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp/_ros2_yolos_cpp_s.ep.rosidl_typesupport_introspection_c.c
+[0.279s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp/__init__.py
+[0.279s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp/_ros2_yolos_cpp_s.ep.rosidl_typesupport_c.c
+[0.279s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp/ros2_yolos_cpp_s__rosidl_typesupport_c.so
+[0.279s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp/_ros2_yolos_cpp_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.279s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp/msg
+[0.279s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp/msg/_key_point2_d_array.py
+[0.279s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp/msg/_obb_detection2_d_array.py
+[0.279s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp/msg/_key_point2_d_array_s.c
+[0.279s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp/msg/_key_point2_d.py
+[0.279s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp/msg/_oriented_bounding_box2_d.py
+[0.279s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp/msg/_obb_detection2_d_s.c
+[0.279s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp/msg/__init__.py
+[0.279s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp/msg/_obb_detection2_d_array_s.c
+[0.279s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp/msg/_key_point2_d_s.c
+[0.279s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp/msg/_obb_detection2_d.py
+[0.279s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp/msg/_oriented_bounding_box2_d_s.c
+[0.295s] Listing '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp'...
+[0.295s] Listing '/home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp/msg'...
+[0.298s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp/ros2_yolos_cpp_s__rosidl_typesupport_fastrtps_c.so
+[0.299s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp/ros2_yolos_cpp_s__rosidl_typesupport_introspection_c.so
+[0.299s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/python3.12/site-packages/ros2_yolos_cpp/ros2_yolos_cpp_s__rosidl_typesupport_c.so
+[0.299s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/libros2_yolos_cpp__rosidl_generator_py.so
+[0.299s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/msg/OrientedBoundingBox2D.idl
+[0.299s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/msg/OBBDetection2D.idl
+[0.299s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/msg/OBBDetection2DArray.idl
+[0.299s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/msg/KeyPoint2D.idl
+[0.299s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/msg/KeyPoint2DArray.idl
+[0.299s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/msg/OrientedBoundingBox2D.msg
+[0.299s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/msg/OBBDetection2D.msg
+[0.299s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/msg/OBBDetection2DArray.msg
+[0.299s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/msg/KeyPoint2D.msg
+[0.299s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/msg/KeyPoint2DArray.msg
+[0.299s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/ros2_yolos_cpp/yolos_detector_node
+[0.299s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/ros2_yolos_cpp/yolos_segmentor_node
+[0.299s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/ros2_yolos_cpp/yolos_pose_node
+[0.299s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/ros2_yolos_cpp/yolos_obb_node
+[0.300s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/ros2_yolos_cpp/yolos_classifier_node
+[0.300s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/lib/libros2_yolos_cpp_components.so
+[0.300s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include
+[0.300s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp
+[0.300s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/nodes
+[0.300s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/nodes/obb_node.hpp
+[0.300s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/nodes/classifier_node.hpp
+[0.300s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/nodes/pose_node.hpp
+[0.300s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/nodes/segmentor_node.hpp
+[0.300s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/nodes/detector_node.hpp
+[0.300s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/visibility_control.hpp
+[0.300s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/conversion
+[0.300s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/conversion/classification_converter.hpp
+[0.300s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/conversion/detection_converter.hpp
+[0.300s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/conversion/pose_converter.hpp
+[0.300s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/conversion/segmentation_converter.hpp
+[0.301s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/conversion/obb_converter.hpp
+[0.301s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/adapters
+[0.301s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/adapters/detector_adapter.hpp
+[0.301s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/adapters/pose_adapter.hpp
+[0.301s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/adapters/yolos_adapter_base.hpp
+[0.301s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/adapters/obb_adapter.hpp
+[0.301s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/adapters/segmentor_adapter.hpp
+[0.301s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/include/ros2_yolos_cpp/adapters/classifier_adapter.hpp
+[0.301s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/launch
+[0.301s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/launch/segmentor.launch.py
+[0.301s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/launch/classifier.launch.py
+[0.301s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/launch/obb.launch.py
+[0.301s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/launch/pose.launch.py
+[0.301s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/launch/detector.launch.py
+[0.301s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/config
+[0.301s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/config/default_params.yaml
+[0.302s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ament_index/resource_index/package_run_dependencies/ros2_yolos_cpp
+[0.302s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ament_index/resource_index/parent_prefix_path/ros2_yolos_cpp
+[0.302s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/environment/ament_prefix_path.sh
+[0.302s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/environment/ament_prefix_path.dsv
+[0.302s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/environment/path.sh
+[0.302s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/environment/path.dsv
+[0.302s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/local_setup.bash
+[0.302s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/local_setup.sh
+[0.302s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/local_setup.zsh
+[0.302s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/local_setup.dsv
+[0.302s] -- Installing: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/package.dsv
+[0.302s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ament_index/resource_index/packages/ros2_yolos_cpp
+[0.302s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/export_ros2_yolos_cpp__rosidl_generator_cExport.cmake
+[0.302s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/export_ros2_yolos_cpp__rosidl_generator_cExport-release.cmake
+[0.302s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/export_ros2_yolos_cpp__rosidl_typesupport_fastrtps_cExport.cmake
+[0.302s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/export_ros2_yolos_cpp__rosidl_typesupport_fastrtps_cExport-release.cmake
+[0.302s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/export_ros2_yolos_cpp__rosidl_generator_cppExport.cmake
+[0.303s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/export_ros2_yolos_cpp__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.303s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/export_ros2_yolos_cpp__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[0.303s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/ros2_yolos_cpp__rosidl_typesupport_introspection_cExport.cmake
+[0.303s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/ros2_yolos_cpp__rosidl_typesupport_introspection_cExport-release.cmake
+[0.303s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/ros2_yolos_cpp__rosidl_typesupport_cExport.cmake
+[0.303s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/ros2_yolos_cpp__rosidl_typesupport_cExport-release.cmake
+[0.303s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/ros2_yolos_cpp__rosidl_typesupport_introspection_cppExport.cmake
+[0.303s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/ros2_yolos_cpp__rosidl_typesupport_introspection_cppExport-release.cmake
+[0.303s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/ros2_yolos_cpp__rosidl_typesupport_cppExport.cmake
+[0.303s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/ros2_yolos_cpp__rosidl_typesupport_cppExport-release.cmake
+[0.303s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/export_ros2_yolos_cpp__rosidl_generator_pyExport.cmake
+[0.303s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/export_ros2_yolos_cpp__rosidl_generator_pyExport-release.cmake
+[0.303s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ament_index/resource_index/rclcpp_components/ros2_yolos_cpp
+[0.303s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/rosidl_cmake-extras.cmake
+[0.303s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.303s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.303s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/ament_cmake_export_libraries-extras.cmake
+[0.303s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/ament_cmake_export_targets-extras.cmake
+[0.303s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.303s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.303s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/ros2_yolos_cppConfig.cmake
+[0.303s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/cmake/ros2_yolos_cppConfig-version.cmake
+[0.303s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/ros2_yolos_cpp/share/ros2_yolos_cpp/package.xml
+[0.304s] Invoked command in '/home/xybxy123/w_work/ros2_ws/build/ros2_yolos_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/xybxy123/w_work/ros2_ws/build/ros2_yolos_cpp

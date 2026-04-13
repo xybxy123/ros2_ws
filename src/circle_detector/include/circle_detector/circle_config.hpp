@@ -1,0 +1,17 @@
+#ifndef CIRCLE_CONFIG_HPP
+#define CIRCLE_CONFIG_HPP
+
+// 目标圆环真实尺寸（单位：毫米）
+#define TARGET_INNER_DIAMETER 900
+#define TARGET_OUTER_DIAMETER 1200
+
+// 检测距离范围
+#define MIN_DETECT_DISTANCE 300
+#define MAX_DETECT_DISTANCE 2000
+
+// 图像预处理默认参数
+#define BLUR_KERNEL_SIZE 9
+#define CANNY_THRESHOLD 30
+#define HOUGH_ACCUM_THRESH 50
+
+#endif

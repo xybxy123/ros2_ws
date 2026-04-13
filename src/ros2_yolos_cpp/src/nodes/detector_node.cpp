@@ -124,6 +124,21 @@ void YolosDetectorNode::imageCallback(const sensor_msgs::msg::Image::ConstShared
     if (publish_debug_image_ && debug_pub_ && debug_pub_->is_activated()) {
       cv::Mat debug = cv_ptr->image.clone();
       detector_->drawDetections(debug, detections);
+
+      // 新增: 遍历检测结果，计算中心点并打印、画点
+      for (const auto& det : detections) {
+        // det.bbox 的数据结构是: x, y, width, height (代表左上角坐标和宽高)
+        int center_x = det.bbox.x + det.bbox.width / 2;
+        int center_y = det.bbox.y + det.bbox.height / 2;
+
+        // 终端打印目标类别、置信度和中心点坐标
+        RCLCPP_INFO(get_logger(), "Detected [%s] (%.2f) at Center(x:%d, y:%d)", 
+                    det.class_name.c_str(), det.confidence, center_x, center_y);
+        
+        // 在 debug 图像的中心画一个红色的实心原点，半径为4
+        cv::circle(debug, cv::Point(center_x, center_y), 4, cv::Scalar(0, 0, 255), -1);
+      }
+
       debug_pub_->publish(*cv_bridge::CvImage(msg->header, "bgr8", debug).toImageMsg());
     }
     if (publish_timing_ && timing_pub_ && timing_pub_->is_activated()) {

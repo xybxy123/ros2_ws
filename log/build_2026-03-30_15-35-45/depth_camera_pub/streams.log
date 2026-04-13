@@ -1,0 +1,40 @@
+[0.014s] Invoking command in '/home/xybxy123/w_work/ros2_ws/build/depth_camera_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/xybxy123/w_work/ros2_ws/build/depth_camera_pub -- -j24 -l24
+[0.036s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.204s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.222s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.227s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.233s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.241s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.277s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.278s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.322s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.360s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.397s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[0.455s] -- Configuring done (0.4s)
+[0.463s] -- Generating done (0.0s)
+[0.465s] -- Build files have been written to: /home/xybxy123/w_work/ros2_ws/build/depth_camera_pub
+[0.501s] [ 50%] [32mBuilding CXX object CMakeFiles/depth_camera_pub_node.dir/src/depth_pub_node.cpp.o[0m
+[2.383s] [01m[K/home/xybxy123/w_work/ros2_ws/src/depth_camera_pub/src/depth_pub_node.cpp:[m[K In constructor ‘[01m[KDepthCameraPublisher::DepthCameraPublisher()[m[K’:
+[2.383s] [01m[K/home/xybxy123/w_work/ros2_ws/src/depth_camera_pub/src/depth_pub_node.cpp:31:25:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kob::Pipeline::start(ob::Config&)[m[K’
+[2.383s]    31 |         [01;31m[Kpipeline_->start(config)[m[K;
+[2.383s]       |         [01;31m[K~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[2.383s] In file included from [01m[K/home/xybxy123/soft/OrbbecSDK/include/libobsensor/ObSensor.hpp:16[m[K,
+[2.383s]                  from [01m[K/home/xybxy123/w_work/ros2_ws/src/depth_camera_pub/src/depth_pub_node.cpp:8[m[K:
+[2.383s] [01m[K/home/xybxy123/soft/OrbbecSDK/include/libobsensor/hpp/Pipeline.hpp:64:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid ob::Pipeline::start(std::shared_ptr<ob::Config>)[m[K’
+[2.383s]    64 |     void [01;36m[Kstart[m[K(std::shared_ptr<Config> config);
+[2.383s]       |          [01;36m[K^~~~~[m[K
+[2.383s] [01m[K/home/xybxy123/soft/OrbbecSDK/include/libobsensor/hpp/Pipeline.hpp:64:40:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kob::Config[m[K’ to ‘[01m[Kstd::shared_ptr<ob::Config>[m[K’
+[2.383s]    64 |     void start([01;36m[Kstd::shared_ptr<Config> config[m[K);
+[2.383s]       |                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[2.383s] [01m[K/home/xybxy123/soft/OrbbecSDK/include/libobsensor/hpp/Pipeline.hpp:69:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid ob::Pipeline::start()[m[K’
+[2.383s]    69 |     void [01;36m[Kstart[m[K();
+[2.384s]       |          [01;36m[K^~~~~[m[K
+[2.384s] [01m[K/home/xybxy123/soft/OrbbecSDK/include/libobsensor/hpp/Pipeline.hpp:69:10:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[2.384s] [01m[K/home/xybxy123/soft/OrbbecSDK/include/libobsensor/hpp/Pipeline.hpp:77:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid ob::Pipeline::start(std::shared_ptr<ob::Config>, ob::FrameSetCallback)[m[K’
+[2.384s]    77 |     void [01;36m[Kstart[m[K(std::shared_ptr<Config> config, FrameSetCallback callback);
+[2.384s]       |          [01;36m[K^~~~~[m[K
+[2.384s] [01m[K/home/xybxy123/soft/OrbbecSDK/include/libobsensor/hpp/Pipeline.hpp:77:10:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[3.229s] gmake[2]: *** [CMakeFiles/depth_camera_pub_node.dir/build.make:76：CMakeFiles/depth_camera_pub_node.dir/src/depth_pub_node.cpp.o] 错误 1
+[3.229s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/depth_camera_pub_node.dir/all] 错误 2
+[3.229s] gmake: *** [Makefile:146：all] 错误 2
+[3.231s] Invoked command in '/home/xybxy123/w_work/ros2_ws/build/depth_camera_pub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/xybxy123/w_work/ros2_ws/build/depth_camera_pub -- -j24 -l24

@@ -1,0 +1,23 @@
+[01m[K/home/xybxy123/w_work/ros2_ws/src/depth_camera_pub/src/depth_pub_node.cpp:[m[K In constructor ‘[01m[KDepthCameraPublisher::DepthCameraPublisher()[m[K’:
+[01m[K/home/xybxy123/w_work/ros2_ws/src/depth_camera_pub/src/depth_pub_node.cpp:31:25:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kob::Pipeline::start(ob::Config&)[m[K’
+   31 |         [01;31m[Kpipeline_->start(config)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+In file included from [01m[K/home/xybxy123/soft/OrbbecSDK/include/libobsensor/ObSensor.hpp:16[m[K,
+                 from [01m[K/home/xybxy123/w_work/ros2_ws/src/depth_camera_pub/src/depth_pub_node.cpp:8[m[K:
+[01m[K/home/xybxy123/soft/OrbbecSDK/include/libobsensor/hpp/Pipeline.hpp:64:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid ob::Pipeline::start(std::shared_ptr<ob::Config>)[m[K’
+   64 |     void [01;36m[Kstart[m[K(std::shared_ptr<Config> config);
+      |          [01;36m[K^~~~~[m[K
+[01m[K/home/xybxy123/soft/OrbbecSDK/include/libobsensor/hpp/Pipeline.hpp:64:40:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kob::Config[m[K’ to ‘[01m[Kstd::shared_ptr<ob::Config>[m[K’
+   64 |     void start([01;36m[Kstd::shared_ptr<Config> config[m[K);
+      |                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/xybxy123/soft/OrbbecSDK/include/libobsensor/hpp/Pipeline.hpp:69:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid ob::Pipeline::start()[m[K’
+   69 |     void [01;36m[Kstart[m[K();
+      |          [01;36m[K^~~~~[m[K
+[01m[K/home/xybxy123/soft/OrbbecSDK/include/libobsensor/hpp/Pipeline.hpp:69:10:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[01m[K/home/xybxy123/soft/OrbbecSDK/include/libobsensor/hpp/Pipeline.hpp:77:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid ob::Pipeline::start(std::shared_ptr<ob::Config>, ob::FrameSetCallback)[m[K’
+   77 |     void [01;36m[Kstart[m[K(std::shared_ptr<Config> config, FrameSetCallback callback);
+      |          [01;36m[K^~~~~[m[K
+[01m[K/home/xybxy123/soft/OrbbecSDK/include/libobsensor/hpp/Pipeline.hpp:77:10:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+gmake[2]: *** [CMakeFiles/depth_camera_pub_node.dir/build.make:76：CMakeFiles/depth_camera_pub_node.dir/src/depth_pub_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/depth_camera_pub_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

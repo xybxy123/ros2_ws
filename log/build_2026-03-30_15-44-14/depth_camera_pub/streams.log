@@ -1,0 +1,27 @@
+[0.013s] Invoking command in '/home/xybxy123/w_work/ros2_ws/build/depth_camera_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/xybxy123/w_work/ros2_ws/build/depth_camera_pub -- -j24 -l24
+[0.080s] [ 50%] [32mBuilding CXX object CMakeFiles/depth_camera_pub_node.dir/src/depth_pub_node.cpp.o[0m
+[4.327s] [100%] [32m[1mLinking CXX executable depth_camera_pub_node[0m
+[4.467s] /usr/bin/ld: warning: libopencv_imgcodecs.so.406, needed by /opt/ros/jazzy/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.408
+[4.468s] /usr/bin/ld: warning: libopencv_core.so.406, needed by /opt/ros/jazzy/lib/libcv_bridge.so, may conflict with libopencv_core.so.408
+[4.622s] [100%] Built target depth_camera_pub_node
+[4.628s] Invoked command in '/home/xybxy123/w_work/ros2_ws/build/depth_camera_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/xybxy123/w_work/ros2_ws/build/depth_camera_pub -- -j24 -l24
+[4.629s] Invoking command in '/home/xybxy123/w_work/ros2_ws/build/depth_camera_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/xybxy123/w_work/ros2_ws/build/depth_camera_pub
+[4.636s] -- Install configuration: ""
+[4.636s] -- Installing: /home/xybxy123/w_work/ros2_ws/install/depth_camera_pub/lib/depth_camera_pub/depth_camera_pub_node
+[4.638s] -- Set non-toolchain portion of runtime path of "/home/xybxy123/w_work/ros2_ws/install/depth_camera_pub/lib/depth_camera_pub/depth_camera_pub_node" to ""
+[4.638s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/depth_camera_pub/share/ament_index/resource_index/package_run_dependencies/depth_camera_pub
+[4.638s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/depth_camera_pub/share/ament_index/resource_index/parent_prefix_path/depth_camera_pub
+[4.638s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/depth_camera_pub/share/depth_camera_pub/environment/ament_prefix_path.sh
+[4.638s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/depth_camera_pub/share/depth_camera_pub/environment/ament_prefix_path.dsv
+[4.638s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/depth_camera_pub/share/depth_camera_pub/environment/path.sh
+[4.638s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/depth_camera_pub/share/depth_camera_pub/environment/path.dsv
+[4.638s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/depth_camera_pub/share/depth_camera_pub/local_setup.bash
+[4.638s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/depth_camera_pub/share/depth_camera_pub/local_setup.sh
+[4.638s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/depth_camera_pub/share/depth_camera_pub/local_setup.zsh
+[4.638s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/depth_camera_pub/share/depth_camera_pub/local_setup.dsv
+[4.638s] -- Installing: /home/xybxy123/w_work/ros2_ws/install/depth_camera_pub/share/depth_camera_pub/package.dsv
+[4.638s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/depth_camera_pub/share/ament_index/resource_index/packages/depth_camera_pub
+[4.638s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/depth_camera_pub/share/depth_camera_pub/cmake/depth_camera_pubConfig.cmake
+[4.638s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/depth_camera_pub/share/depth_camera_pub/cmake/depth_camera_pubConfig-version.cmake
+[4.638s] -- Up-to-date: /home/xybxy123/w_work/ros2_ws/install/depth_camera_pub/share/depth_camera_pub/package.xml
+[4.639s] Invoked command in '/home/xybxy123/w_work/ros2_ws/build/depth_camera_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/xybxy123/w_work/ros2_ws/build/depth_camera_pub

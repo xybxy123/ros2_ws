@@ -1,0 +1,4 @@
+[31mCMake Error at CMakeLists.txt:5 (add_compileoptions):
+  Unknown CMake command "add_compileoptions".
+
+[0m

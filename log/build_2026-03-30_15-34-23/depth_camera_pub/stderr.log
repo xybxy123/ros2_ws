@@ -1,0 +1,18 @@
+[01m[K/home/xybxy123/w_work/ros2_ws/src/depth_camera_pub/src/depth_pub_node.cpp:[m[K In constructor ‘[01m[KDepthCameraPublisher::DepthCameraPublisher()[m[K’:
+[01m[K/home/xybxy123/w_work/ros2_ws/src/depth_camera_pub/src/depth_pub_node.cpp:26:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class ob::DeviceList[m[K’ {aka ‘[01m[Kclass ob::DeviceList[m[K’} has no member named ‘[01m[KcreateDevice[m[K’; did you mean ‘[01m[KgetDevice[m[K’?
+   26 |         device_ = dev_list->[01;31m[KcreateDevice[m[K(0);
+      |                             [01;31m[K^~~~~~~~~~~~[m[K
+      |                             [32m[KgetDevice[m[K
+[01m[K/home/xybxy123/w_work/ros2_ws/src/depth_camera_pub/src/depth_pub_node.cpp:31:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class ob::Device[m[K’ {aka ‘[01m[Kclass ob::Device[m[K’} has no member named ‘[01m[KenableStream[m[K’
+   31 |         device_->[01;31m[KenableStream[m[K(depth_profile);
+      |                  [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/xybxy123/w_work/ros2_ws/src/depth_camera_pub/src/depth_pub_node.cpp:32:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class ob::Device[m[K’ {aka ‘[01m[Kclass ob::Device[m[K’} has no member named ‘[01m[KstartStream[m[K’
+   32 |         device_->[01;31m[KstartStream[m[K();
+      |                  [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/xybxy123/w_work/ros2_ws/src/depth_camera_pub/src/depth_pub_node.cpp:[m[K In member function ‘[01m[Kvoid DepthCameraPublisher::timer_callback()[m[K’:
+[01m[K/home/xybxy123/w_work/ros2_ws/src/depth_camera_pub/src/depth_pub_node.cpp:43:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class ob::Device[m[K’ {aka ‘[01m[Kclass ob::Device[m[K’} has no member named ‘[01m[KgetFrameSet[m[K’
+   43 |         auto frame_set = device_->[01;31m[KgetFrameSet[m[K(100);
+      |                                   [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/depth_camera_pub_node.dir/build.make:76：CMakeFiles/depth_camera_pub_node.dir/src/depth_pub_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/depth_camera_pub_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

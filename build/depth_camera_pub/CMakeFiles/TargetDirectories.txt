@@ -1,0 +1,10 @@
+/home/xybxy123/w_work/ros2_ws/build/depth_camera_pub/CMakeFiles/uninstall.dir
+/home/xybxy123/w_work/ros2_ws/build/depth_camera_pub/CMakeFiles/depth_camera_pub_uninstall.dir
+/home/xybxy123/w_work/ros2_ws/build/depth_camera_pub/CMakeFiles/depth_camera_pub_node.dir
+/home/xybxy123/w_work/ros2_ws/build/depth_camera_pub/CMakeFiles/test.dir
+/home/xybxy123/w_work/ros2_ws/build/depth_camera_pub/CMakeFiles/edit_cache.dir
+/home/xybxy123/w_work/ros2_ws/build/depth_camera_pub/CMakeFiles/rebuild_cache.dir
+/home/xybxy123/w_work/ros2_ws/build/depth_camera_pub/CMakeFiles/list_install_components.dir
+/home/xybxy123/w_work/ros2_ws/build/depth_camera_pub/CMakeFiles/install.dir
+/home/xybxy123/w_work/ros2_ws/build/depth_camera_pub/CMakeFiles/install/local.dir
+/home/xybxy123/w_work/ros2_ws/build/depth_camera_pub/CMakeFiles/install/strip.dir

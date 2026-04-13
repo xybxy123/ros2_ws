@@ -1,0 +1,37 @@
+[  0%] Built target ros2_yolos_cpp__rosidl_generator_type_description
+[  2%] Built target gtest_main
+[  3%] Built target gtest
+[  3%] Built target ament_cmake_python_copy_ros2_yolos_cpp
+[  5%] Built target yolos_detector_node
+[  6%] Built target yolos_obb_node
+[  8%] Built target yolos_classifier_node
+[ 22%] Built target ros2_yolos_cpp__rosidl_generator_c
+[ 24%] Built target yolos_pose_node
+[ 25%] Built target ros2_yolos_cpp__cpp
+[ 27%] Built target yolos_segmentor_node
+[ 33%] Built target ros2_yolos_cpp__rosidl_typesupport_introspection_c
+[ 39%] Built target ros2_yolos_cpp__rosidl_typesupport_cpp
+[ 51%] Built target ros2_yolos_cpp__rosidl_typesupport_c
+[ 51%] Built target ros2_yolos_cpp__rosidl_typesupport_fastrtps_c
+[ 58%] Built target ros2_yolos_cpp__rosidl_typesupport_fastrtps_cpp
+[ 64%] Built target ros2_yolos_cpp__rosidl_typesupport_introspection_cpp
+[ 64%] Built target ros2_yolos_cpp
+[ 65%] Built target ros2_yolos_cpp__py
+[ 78%] Built target ros2_yolos_cpp_components
+[ 79%] Built target test_detection_converter
+[ 85%] Built target ros2_yolos_cpp__rosidl_generator_py
+[ 88%] Built target test_integration_detection
+[ 89%] Built target test_integration_pose
+[ 90%] Built target test_integration_obb
+[ 92%] Built target test_integration_classification
+[ 94%] Built target test_integration_segmentation
+[ 96%] Built target ros2_yolos_cpp_s__rosidl_typesupport_c
+[ 98%] Built target ros2_yolos_cpp_s__rosidl_typesupport_introspection_c
+[100%] Built target ros2_yolos_cpp_s__rosidl_typesupport_fastrtps_c
+running egg_info
+writing ros2_yolos_cpp.egg-info/PKG-INFO
+writing dependency_links to ros2_yolos_cpp.egg-info/dependency_links.txt
+writing top-level names to ros2_yolos_cpp.egg-info/top_level.txt
+reading manifest file 'ros2_yolos_cpp.egg-info/SOURCES.txt'
+writing manifest file 'ros2_yolos_cpp.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_ros2_yolos_cpp_egg
